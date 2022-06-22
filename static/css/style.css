@@ -17,6 +17,10 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.navbar {
+    padding: 0;
+}
+
 .callout-container {
     height: 100vh;
     background: url(https://res.cloudinary.com/karinoldbring/image/upload/v1655876614/BloomRoom/bg-image_yxd9ne.jpg) no-repeat center center fixed;
