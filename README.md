@@ -22,9 +22,9 @@
     * [Existing Features](#Existing-Features)
     * [Future Features](#Future-Features)
 
-* **[SEO Implementation](#SEO-Implementation)
+* **[SEO Implementation](#SEO-Implementation)**
 
-* **[Marketing Techniques](#Marketing-Techniques)
+* **[Marketing Techniques](#Marketing-Techniques)**
 
 * **[Testing](#Testing)**
 
