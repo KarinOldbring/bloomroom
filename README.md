@@ -40,6 +40,6 @@
     * [Deploying on Heroku](#Deploying-on-Heroku)
 
 * **Credits** 
-    *[Media](#Media)
-    *[Code](#Code)
-    *[Acknowledgements](#Acknowledgements)
+    * [Media](#Media)
+    * [Code](#Code)
+    * [Acknowledgements](#Acknowledgements)
