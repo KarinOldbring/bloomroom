@@ -31,6 +31,8 @@
 
     <!-- Link CSS -->
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{% static 'site_images/favicon.ico' %}">
 
     {% endblock %}
 
@@ -44,7 +46,10 @@
 
       <!-- Nav-bar -->
       <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a class="navbar-brand" href="#">
+          <img src="https://res.cloudinary.com/karinoldbring/image/upload/v1655885024/BloomRoom/logo_ptyo3b.png"
+           alt="BloomRoom Logo"style="width:120px; height: 120px;">
+        </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
