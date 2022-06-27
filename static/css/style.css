@@ -45,3 +45,22 @@ p {
     height: 20vw;
     object-fit: cover;
 }
+
+footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #e9edf1;
+    text-align: center;
+}
+
+.social {
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.fa-brands {
+    color: #000000;
+}
