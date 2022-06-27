@@ -39,3 +39,9 @@ p {
 .callout {
     padding: 1rem;
 }
+
+.card-img-top {
+    width: 75%;
+    height: 20vw;
+    object-fit: cover;
+}
