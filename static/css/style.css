@@ -41,21 +41,14 @@ body {
 	z-index: -1;
 }
 
-/*.callout-container {
+.callout-container {
     height: 100vh;
-    background: url(https://res.cloudinary.com/karinoldbring/image/upload/v1656609833/BloomRoom/bg-image2_ncnnva.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: relative;
 }
-*/
+
 
 .callout-container {
     display: flex;
@@ -67,6 +60,60 @@ body {
 .callout {
     padding: 1rem;
 }
+
+#delivery-banner {
+    border:1.5px solid #000000;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.rolling {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite;
+}
+
+@-moz-keyframes my-animation {
+    from { -moz-transform: translateX(100%); }
+    to { -moz-transform: translateX(-100%); }
+}
+
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(100%); }
+    to { -webkit-transform: translateX(-100%); }
+}
+
+@keyframes my-animation {
+    from {
+        -moz-transform: translateX(100%);
+        -webkit-transform: translateX(100%);
+        transform: translateX(100%);
+  }
+  to {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
+/*.blinking{
+    animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #ffffff;    }
+    49%{    color: #ffffff; }
+    60%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #ffffff;    }
+}*/
 
 .card-img-top {
     height: 20vw;

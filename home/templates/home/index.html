@@ -2,14 +2,23 @@
 {% load static %}
 
 {% block content %}
-    <div class="container-fluid callout-container">
-        <div class="row">
-            <div class="col-12">
-                <section class="callout jumbotron text-center">
-                    <h1>Make your Room Bloom!</h1>
-                    <p><strong>Fast delivery straight to your doorstep!</strong></p>
-                </section>
-            </div>
+<div class="container-fluid callout-container" >
+    <div class="row text-center" id="delivery-banner">
+        <div class="col bg-black text-white">
+            <h4 class="rolling">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
         </div>
     </div>
+</div>
+
 {% endblock %}
+
+<div class="container-fluid callout-container">
+    <div class="row">
+        <div class="col-12">
+            <section class="callout jumbotron text-center">
+                <h1>Make your Room Bloom!</h1>
+                <p><strong>Fast delivery straight to your doorstep!</strong></p>
+            </section>
+        </div>
+    </div>
+</div>
