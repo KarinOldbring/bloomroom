@@ -8,13 +8,18 @@
             <section class="callout jumbotron text-center">
                 <h1>Make your Room Bloom!</h1>
                 <p><strong>High quality plants for your home</strong><br>Fast delivery straight to your doorstep!</p>
-                <a href="{% url 'products' %}"><h3>Shop now</h3></a>
+                <a href="{% url 'products' %}"><h3>Shop here!</h3></a>
             </section>
         </div>
     </div>
-    <div class="row text-center" id="delivery-banner">
-        <div class="col bg-black text-white">
+    <div class="row d-none d-sm-block text-center" id="delivery-banner">
+        <div class="col text-white">
             <h4 class="rolling">Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
+        </div>
+    </div>
+    <div class="row d-block d-sm-none text-center p-0" id="delivery-banner">
+        <div class="col text-white" >
+            <h4>Free delivery on orders over ${{ free_delivery_threshold }}!</h4>
         </div>
     </div>
 </div>
