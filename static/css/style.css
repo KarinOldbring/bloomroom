@@ -109,6 +109,14 @@ body {
     100%{   color: #ffffff;    }
 }*/
 
+.custom-toast {
+    overflow: visible;
+}
+
+.toast-capper {
+    height: 2px;
+}
+
 .card-img-top {
     height: 20vw;
     object-fit: cover;
