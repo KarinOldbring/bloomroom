@@ -1,4 +1,4 @@
-rom django.http import HttpResponse
+from django.http import HttpResponse
 
 from .models import Order, OrderLineItem
 from products.models import Product
