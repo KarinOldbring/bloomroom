@@ -178,7 +178,7 @@ STATICFILES_STORAGE = 'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
-# Stripe
+# STRIPE
 FREE_DELIVERY_THRESHOLD = 40
 STANDARD_DELIVERY_PERCENTAGE = 15
 STRIPE_CURRENCY = 'usd'
@@ -197,6 +197,12 @@ else:
     EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')
     EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')
     DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')
+
+# MAILCHIMP CREDENTIALS
+
+MAILCHIMP_API_KEY = "60155cef7f48b41693d55d1c0bd1644d-us11"
+MAILCHIMP_DATA_CENTER = "s11"
+MAILCHIMP_EMAIL_LIST_ID = "752255577b"
 
 
 # Default primary key field type
