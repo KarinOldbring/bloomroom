@@ -21,6 +21,10 @@ p {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+header {
+    background-color: #e9edf1;
+}
+
 .navbar {
     padding: 0;
 }
@@ -37,8 +41,14 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: #FFFFFF;
 	z-index: -1;
+}
+
+a {
+    color: #253224;
+    text-decoration: none;
+    background-color: transparent;
 }
 
 .callout-container {
@@ -56,13 +66,12 @@ body {
 }
 
 #delivery-banner {
-    border: 0.5px solid #000000;
+    overflow: hidden;
+    border: 0.3px solid #000000;
     position: absolute;
     bottom: 0px;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
     width: 100%;
-    padding: 0.5rem;
-    overflow: hidden;
 }
 
 .rolling {
@@ -178,14 +187,10 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #e9edf1;
-    text-align: center;
 }
 
 .social {
-    text-align: center;
-    display: flex;
     list-style-type: none;
-    justify-content: space-evenly;
 }
 
 .fa-brands {
