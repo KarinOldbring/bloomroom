@@ -176,16 +176,19 @@
           <h4 class="m-0 text-center text-black">Follow us:</h4>
           <ul class="social">
             <li>
-              <p>Visit us on Facebook: <a href="https://www.facebook.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Facebook page (opens in new tab)"><i class="fa-brands fa-facebook"></i></a></p>
+              <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Facebook page (opens in new tab)">Visit us on Facebook: <i
+                  class="fa-brands fa-facebook"></i></a>
             </li>
             <li>
-              <p>Visit us on Instagram: <a href="https://www.instagram.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Instagram page (opens in new tab)"><i class="fa-brands fa-instagram"></i></a></p>
+              <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Instagram page (opens in new tab)">Visit us on Instagram: <i
+                  class="fa-brands fa-instagram"></i></a>
             </li>
             <li>
-              <p>Visit us on Twitter: <a href="https://twitter.com/" target="_blank" rel="noopener"
-                aria-label="Visit our Twitter page (opens in new tab)"><i class="fa-brands fa-twitter"></i></a></p>
+              <a href="https://twitter.com/" target="_blank" rel="noopener"
+                aria-label="Visit our Twitter page (opens in new tab)">Visit us on Twitter: <i
+                  class="fa-brands fa-twitter"></i></a>
             </li>
           </ul>
         </div>
@@ -194,19 +197,28 @@
             <img src="{% static 'site_images/logo.png' %}" alt="BloomRoom Logo" style="width:140px; height: 140px;">
           </a>
         </div>
-        <div class="col">
-          <form action="action_page.php">
-            <div class="container">
-              <h4>Sign up for our Newsletter:</h4>
-              <p>Get the latest news, trends and offers!</p>
-            </div>
-            <div class="container border-secondary" style="background-color:#FFFFFF; border: 1px solid">
-              <input type="text" placeholder="Email address" name="mail" required>
-            </div>
-            <div class="container">
-              <input class="btn btn-outline-secondary btn-sm mt-1" type="submit" value="Subscribe">
+        <div class="col text-center">
+          <form method="post" action="{% url 'subscription' %}">
+            {% csrf_token %}
+
+            <div class="form-group">
+              <h4>Sign up for our Newsletter!</h4> <br>
+              <div>
+                <input type="email" name="email" placeholder="Email address" style="border: 1px solid">
+                <button class="btn btn-outline-secondary btn-sm" type="submit">Submit</button>
+              </div>
             </div>
           </form>
+          <!-- message if email is sent -->
+          {% if messages %}
+          {% for message in messages %}
+          <div class="my-5 alert alert-success">
+            <h5 class="m-0">
+              {{ message }}
+            </h5>
+          </div>
+          {% endfor %}
+          {% endif %}
         </div>
       </div>
       <div class="row">

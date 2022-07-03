@@ -43,4 +43,4 @@ def subscription(request):
         print(email)
         messages.success(request, "Email received, Thank You! ")
 
-    return render(request, "marketing/index.html")
+    return render(request, "marketing/subscription.html")
