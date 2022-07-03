@@ -5,6 +5,7 @@ from django.conf import settings
 
 import stripe
 from bag.contexts import bag_contents
+from products.models import Product
 from .forms import OrderForm
 from .models import Order, OrderLineItem
 import json
@@ -100,7 +101,7 @@ def checkout(request):
     context = {
         'order_form': order_form,
         'stripe_public_key': stripe_public_key,
-        'client_secret': intent.client_secret
+        'client_secret': intent.client_secret,
     }
 
     return render(request, template, context)
