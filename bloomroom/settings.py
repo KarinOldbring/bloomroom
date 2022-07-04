@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'checkout',
     'crispy_forms',
     'marketing',
+    'profiles',
 ]
 
 MIDDLEWARE = [
@@ -201,7 +202,7 @@ else:
 
 # MAILCHIMP CREDENTIALS
 
-MAILCHIMP_API_KEY = "60155cef7f48b41693d55d1c0bd1644d-us11"
+MAILCHIMP_API_KEY = os.environ.get('MAILCHIMP_API_KEY')
 MAILCHIMP_DATA_CENTER = "s11"
 MAILCHIMP_EMAIL_LIST_ID = "752255577b"
 
