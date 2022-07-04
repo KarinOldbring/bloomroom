@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect, reverse
 from django.contrib import messages
 
 from django.conf import settings
@@ -40,7 +40,7 @@ def subscription(request):
     """
     if request.method == "POST":
         email = request.POST['email']
-        print(email)
+        subscribe(email)
         messages.success(request, "Email received, Thank You! ")
 
     return render(request, "marketing/subscription.html")
