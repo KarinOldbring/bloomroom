@@ -1,0 +1,1 @@
+BloomRoom Confirmation email for {{ order.number }}
