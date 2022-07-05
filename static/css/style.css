@@ -107,22 +107,6 @@ a {
   }
 }
 
-/*.blinking{
-    animation:blinkingText 1.2s infinite;
-}
-@keyframes blinkingText{
-    0%{     color: #ffffff;    }
-    49%{    color: #ffffff; }
-    60%{    color: transparent; }
-    99%{    color:transparent;  }
-    100%{   color: #ffffff;    }
-}*/
-
-/*.about {
-    align-items: center;
-    padding: 2rem
-}*/
-
 .about-image {
     height: 75%;
     object-fit: cover;
