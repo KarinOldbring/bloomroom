@@ -32,7 +32,7 @@
             <div>
                 <p class="text-muted mt-3 text-center text-md-left">
                     {% if search_term or current_categories or current_sorting != 'None_None' %}
-                    <span class="medium"><a href="{% url 'products' %}" class="link-secondary">All Plants</a> | </span>
+                        <span class="medium"><a href="{% url 'products' %}" class="link-secondary">All Plants</a> | </span>
                     {% endif %}
                     {{ products|length }} Products{% if search_term %} found for
                     <strong>"{{ search_term }}"</strong>{% endif %}
@@ -69,6 +69,12 @@
                                 </div>
                             </div>
                         </div>
+                        {% if request.user.is_superuser %}
+                            <small class="ml-3 mb-1">
+                                <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                                <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                            </small>
+                        {% endif %}
                     </div>
                 </div>
                 {% if forloop.counter|divisibleby:2 %}
