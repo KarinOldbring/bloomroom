@@ -7,11 +7,13 @@
     <div class="row">
         <div class="col text-center mt-3">
             <h2>Plants</h2>
-            {% for c in current_categories %}
-            <a class="text-decoration-none" href="{% url 'products' %}?category={{ c.friendly_name }}">
-                <span class="p-2 mt-2 badge badge badge-light rounded-0 border">{{ c.name }}</span>
-            </a>
-            {% endfor %}
+            <div>
+                {% for c in current_categories %}
+                <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.friendly_name }}">
+                    <span class="p-2 mt-2 badge badge badge-light rounded-0 border">{{ c.name }}</span>
+                </a>
+                {% endfor %}
+            </div>
         </div>
     </div>
     <div class="row mt-1 mb-2">
@@ -32,7 +34,7 @@
             <div>
                 <p class="text-muted mt-3 text-center text-md-left">
                     {% if search_term or current_categories or current_sorting != 'None_None' %}
-                        <span class="medium"><a href="{% url 'products' %}" class="link-secondary">All Plants</a> | </span>
+                    <span class="medium"><a href="{% url 'products' %}" class="link-secondary">All Plants</a> | </span>
                     {% endif %}
                     {{ products|length }} Products{% if search_term %} found for
                     <strong>"{{ search_term }}"</strong>{% endif %}
@@ -70,10 +72,10 @@
                             </div>
                         </div>
                         {% if request.user.is_superuser %}
-                            <small class="ml-3 mb-1">
-                                <a href="{% url 'edit_product' product.id %}">Edit</a> | 
-                                <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
-                            </small>
+                        <small class="ml-3 mb-1">
+                            <a href="{% url 'edit_product' product.id %}">Edit</a> |
+                            <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                        </small>
                         {% endif %}
                     </div>
                 </div>
@@ -100,7 +102,8 @@
         <a href="{{ request.META.HTTP_REFERER }}" class="btn btn-secondary" class>Back</a>
     </div>
     <div>
-        <button type="button" class="btn btn-outline-secondary btn-floating btn-lg data-mdb-smooth-scroll" id="btn-back-to-top">
+        <button type="button" class="btn btn-outline-secondary btn-floating btn-lg data-mdb-smooth-scroll"
+            id="btn-back-to-top">
             <i class="fas fa-arrow-up"></i>
         </button>
     </div>
@@ -109,30 +112,31 @@
 {% endblock %}
 
 {% block postloadjs %}
-    {{ block.super }}
-    <script type="text/javascript">
+{{ block.super }}
+<script type="text/javascript">
     let mybutton = document.getElementById("btn-back-to-top");
 
     window.onscroll = function () {
-    scrollFunction();
+        scrollFunction();
     };
 
     function scrollFunction() {
-    if (
-    document.body.scrollTop > 20 ||
-    document.documentElement.scrollTop > 20
-    ) {
-    mybutton.style.display = "block";
-    } else {
-    mybutton.style.display = "none";
-    }
+        if (
+            document.body.scrollTop > 20 ||
+            document.documentElement.scrollTop > 20
+        ) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
     }
 
     mybutton.addEventListener("click", backToTop);
 
     function backToTop() {
-    document.body.scrollTop = 0;
-    document.documentElement.scrollTop = 0;
-    }</script>
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
 
 {% endblock %}
