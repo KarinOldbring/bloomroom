@@ -60,9 +60,13 @@ a {
 }
 
 .callout {
-    padding: 1.5rem;
-    background-color: rgba(250, 250, 250, 0.7);
+    padding: 1rem;
+    background-color: rgba(250, 250, 250, 0.8);
     color: #000000 !important;
+}
+
+.jumbotron {
+    margin-bottom: 6rem;
 }
 
 #delivery-banner {
