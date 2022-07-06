@@ -25,10 +25,10 @@
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc">Price, low to high</a>
-                    <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=desc">Price, high to
+                    <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=asc{{sorting}}">Price, low to high</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?sort=price&direction=desc{{sorting}}">Price, high to
                         low</a>
-                    <a class="dropdown-item" href="{% url 'products' %}?sort=name&direction=asc">Name</a>
+                    <a class="dropdown-item" href="{% url 'products' %}?sort=name&direction=asc{{sorting}}">Name</a>
                 </div>
             </div>
             <div>

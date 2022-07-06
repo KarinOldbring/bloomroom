@@ -17,6 +17,8 @@ def all_products(request):
     categories = None
     sort = None
     direction = None
+    sorting = f''	
+    categories = Category.objects.all()
 
 
     if request.GET:
@@ -37,6 +39,8 @@ def all_products(request):
 
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
+            for cat in categories:
+                sorting += f'&category={cat}'
             print(categories)
             products = products.filter(category__friendly_name__in=categories)
             print(products)
@@ -49,7 +53,8 @@ def all_products(request):
                 messages.error(request, "Please enter a search criteria!")
                 return redirect(reverse('products'))
             
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(name__icontains=query) | Q(description__icontains=
+                                                   query)
             products = products.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -59,7 +64,7 @@ def all_products(request):
         'search_term': query,
         'current_categories': categories,
         'current_sorting': current_sorting,
-
+        'sorting': sorting,
     }
 
     return render(request, 'products/products.html', context)
