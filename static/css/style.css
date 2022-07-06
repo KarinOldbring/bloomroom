@@ -69,6 +69,10 @@ a {
     margin-bottom: 6rem;
 }
 
+.image-container {
+  
+}
+
 #delivery-banner {
     overflow: hidden;
     border: 0.3px solid #000000;
@@ -177,7 +181,8 @@ a {
 }
 
 .card-img-top {
-    height: 20vw;
+    height: 35vw;
+    width: auto;
     object-fit: cover;
 }
 

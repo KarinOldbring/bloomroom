@@ -5,11 +5,17 @@
 <div class="overlay"></div>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-            <div class="image-container my-5">
+        <div class="col text-center mt-3">
+            <h3>{{ product.name }}</h3>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-2 text-center">
+            <div class="image-container mt-5">
                 {% if product.image %}
                 <a href="{{ product.image.url }}" target="_blank">
-                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}">
+                    <img class="card-img-top img-fluid" src="{{ product.image.url }}" alt="{{ product.name }}" style="object-fit:contain;
+                        width:300px; height:auto;">
                 </a>
                 {% else %}
                 <a href="">
@@ -20,7 +26,6 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4">
             <div class="mb-5 mt-md-5">
-                <h3>{{ product.name }}</h3>
                 <p>Price: {{ product.price }}$</p>
                 <p>{{ product.description }}</p>
                 <p>{{ product.category }}</p>
@@ -55,10 +60,10 @@
                             </div>
                             {% if request.user.is_superuser %}
                             <small class="ml-3 mb-1">
-                                <a href="{% url 'edit_product' product.id %}">Edit</a> | 
+                                <a href="{% url 'edit_product' product.id %}">Edit</a> |
                                 <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
                             </small>
-                        {% endif %}
+                            {% endif %}
                         </div>
 
                         <div class="col-12">
