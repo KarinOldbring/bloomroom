@@ -99,7 +99,12 @@
         </div>
     </div>
     <div class="text-center mb-2">
-        <a href="{{ request.META.HTTP_REFERER }}" class="btn btn-secondary" class>Back</a>
+        <a href="{{ request.META.HTTP_REFERER }}" class="btn btn-outline-secondary">
+            <span class="icon">
+                <i class="fas fa-chevron-left"></i>
+            </span>
+            <span>Back</span>
+        </a>
     </div>
     <div>
         <button type="button" class="btn btn-outline-secondary btn-floating btn-lg data-mdb-smooth-scroll"
