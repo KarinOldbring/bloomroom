@@ -22,14 +22,8 @@ def webhook(request):
     print(sig_header)
     event = None
 
-    #try:
-    #    event = stripe.Event.construct_from(
-    #        json.loads(payload), stripe.api_key
-    #    )
     try:
-        event = stripe.Webhook.construct_event(
-        payload, sig_header, wh_secret
-        )
+        event = stripe.Webhook.construct_event(payload, sig_header, wh_secret)
     except ValueError as e:
         print('value error')
         print(e)
@@ -68,26 +62,3 @@ def webhook(request):
 
 
 stripe.api_key = settings.STRIPE_SECRET_KEY
-
-# @csrf_exempt
-# def webhook(request):
-#     """listens for payment_intent.succeeded"""
-#     payload = request.body
-#     event = None
-
-#     try:
-#         event = stripe.Event.construct_from(
-#             json.loads(payload), stripe.api_key
-#         )
-#     except ValueError as e:
-#         print(e)
-#         return HttpResponse(status=400)
-
-#     # Handle the event
-#     if event.type == 'payment_intent.succeeded':
-#         payment_confirmation(event)
-
-#     else:
-#         print(f'Unhandled event type {event.type}')
-
-#     return HttpResponse(status=200)
