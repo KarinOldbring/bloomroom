@@ -69,10 +69,6 @@ a {
     margin-bottom: 6rem;
 }
 
-.image-container {
-  
-}
-
 #delivery-banner {
     overflow: hidden;
     border: 0.3px solid #000000;
@@ -181,7 +177,7 @@ a {
 }
 
 .card-img-top {
-    height: 35vw;
+    height: 30vw;
     width: auto;
     object-fit: cover;
 }
@@ -201,6 +197,13 @@ footer {
     color: #000000;
 }
 
+#mc_embed_signup form {
+    display: block;
+    position: relative;
+    text-align: left;
+    padding: 0; !important
+}
+
 #btn-back-to-top {
     position: fixed;
     bottom: 20px;
@@ -208,7 +211,7 @@ footer {
     display: none;
     }
 
-    .update-link,
-    .remove-item {
-        cursor: pointer;
-    }
+.update-link,
+.remove-item {
+    cursor: pointer;
+}

@@ -53,7 +53,6 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
     'crispy_forms',
-    'marketing',
     'profiles',
 ]
 
@@ -191,7 +190,7 @@ DEFAULT_FROM_EMAIL = 'bloomroom@example.com'
 
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
-    DEFAULT_FROM_EMAIL = 'bloomroom.com'
+    DEFAULT_FROM_EMAIL = 'bloomroom@example.com'
 else:
     EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
     EMAIL_USE_TLS = True
@@ -203,9 +202,9 @@ else:
 
 # MAILCHIMP CREDENTIALS
 
-MAILCHIMP_API_KEY = os.environ.get('MAILCHIMP_API_KEY')
-MAILCHIMP_DATA_CENTER = "s11"
-MAILCHIMP_EMAIL_LIST_ID = "752255577b"
+#MAILCHIMP_API_KEY = os.environ.get('MAILCHIMP_API_KEY')
+#MAILCHIMP_DATA_CENTER = "s11"
+#MAILCHIMP_EMAIL_LIST_ID = "752255577b"
 
 
 # Default primary key field type

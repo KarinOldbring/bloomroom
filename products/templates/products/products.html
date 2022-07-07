@@ -10,7 +10,7 @@
             <div>
                 {% for c in current_categories %}
                 <a class="category-badge text-decoration-none" href="{% url 'products' %}?category={{ c.friendly_name }}">
-                    <span class="p-2 mt-2 badge badge badge-light rounded-0 border">{{ c.name }}</span>
+                    <span class="p-2 mt-2 badge badge badge-light border">{{ c.name }}</span>
                 </a>
                 {% endfor %}
             </div>
