@@ -43,3 +43,11 @@
     * [Media](#Media)
     * [Code](#Code)
     * [Acknowledgements](#Acknowledgements)
+
+
+**Bugs
+Error: Stripe Webhooks throwing throwing signature error
+Solution: I had pasted the stripe public and secret key in my Gitpod variables, but not the webhook key. After consulting tutor support I was adviced to put them in my env.py file instead along with the wh-key. 
+
+Error: Emails not being sent out
+Solution: I was trying to send emails from a gmail which doesn't work on the development server, after I put DEVELOPMENT="True" in my env.py file the emails were sent out s expected. 

@@ -6,6 +6,7 @@ from django.views.decorators.csrf import csrf_exempt
 from checkout.webhook_handler import StripeWH_Handler
 
 import stripe
+import json
 
 @require_POST
 @csrf_exempt
@@ -18,19 +19,30 @@ def webhook(request):
     # Get the webhook data and verify its signature
     payload = request.body
     sig_header = request.META['HTTP_STRIPE_SIGNATURE']
+    print(sig_header)
     event = None
 
+    #try:
+    #    event = stripe.Event.construct_from(
+    #        json.loads(payload), stripe.api_key
+    #    )
     try:
         event = stripe.Webhook.construct_event(
         payload, sig_header, wh_secret
         )
     except ValueError as e:
+        print('value error')
+        print(e)
         # Invalid payload
         return HttpResponse(status=400)
     except stripe.error.SignatureVerificationError as e:
+        print('sig error')
+        print(e)
         # Invalid signature
         return HttpResponse(status=400)
     except Exception as e:
+        print('here error')
+        print(e)
         return HttpResponse(content=e, status=400)
 
 
@@ -53,3 +65,29 @@ def webhook(request):
     # Call the event handler with the event
     response = event_handler(event)
     return response
+
+
+stripe.api_key = settings.STRIPE_SECRET_KEY
+
+# @csrf_exempt
+# def webhook(request):
+#     """listens for payment_intent.succeeded"""
+#     payload = request.body
+#     event = None
+
+#     try:
+#         event = stripe.Event.construct_from(
+#             json.loads(payload), stripe.api_key
+#         )
+#     except ValueError as e:
+#         print(e)
+#         return HttpResponse(status=400)
+
+#     # Handle the event
+#     if event.type == 'payment_intent.succeeded':
+#         payment_confirmation(event)
+
+#     else:
+#         print(f'Unhandled event type {event.type}')
+
+#     return HttpResponse(status=200)
