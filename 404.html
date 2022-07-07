@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Page Not Found</h1>
+                <p>Sorry, but the page you were trying to view does not exist.</p>
+                <a href="{% url 'home' %}" class="btn btn-submit"></a>
+            </div>
+        </div>
+</body>
+
+{% endblock %}
