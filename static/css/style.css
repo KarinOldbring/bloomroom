@@ -201,7 +201,7 @@ footer {
     display: block;
     position: relative;
     text-align: left;
-    padding: 0; !important
+    padding: 0 !important;
 }
 
 #btn-back-to-top {
