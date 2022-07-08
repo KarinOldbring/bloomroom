@@ -24,6 +24,7 @@ def profile(request):
     else:
         form = UserProfileForm(instance=user)
     orders = user.orders.all()
+    print("orders :", orders)
 
     template = 'profiles/profile.html'
     context = {
@@ -31,6 +32,7 @@ def profile(request):
         'orders': orders,
         'on_profile_page': True
     }
+
 
     return render(request, template, context)
 
@@ -40,9 +42,10 @@ def order_history(request, order_number):
     Order history
     """
     order = get_object_or_404(Order, order_number=order_number)
+    print("order :", order)
 
     messages.info(request, (
-        f'This is a past confirmation for order number {order_number}. '
+        f'This is a past confirmation for order number { order_number }. '
         'A confirmation email was sent on the order date.'
     ))
 
