@@ -51,3 +51,6 @@ Solution: I had pasted the stripe public and secret key in my Gitpod variables, 
 
 Error: Emails not being sent out
 Solution: I was trying to send emails from a gmail which doesn't work on the development server, after I put DEVELOPMENT="True" in my env.py file the emails were sent out s expected. 
+
+Error: When trying to view irder history an Error regarding unexpected keyword argument 'order_number' was thrown. 
+Solution: It turned out I had the wrong URL path for the order_history instead of views.order_history I had views.profile. 
