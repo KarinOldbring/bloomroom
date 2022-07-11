@@ -186,7 +186,7 @@ STATICFILES_STORAGE = (
 )
 
 if not DEBUG:
-    MEDIA_URL = '/BloomRoom/media/'
+    MEDIA_URL = '/media/'
     STATIC_URL = '/BloomRoom/static/'
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'), ]

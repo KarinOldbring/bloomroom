@@ -30,7 +30,7 @@ header {
 }
 
 body {
-    background: url('/static/site_images/frontimage.jpg') no-repeat center center fixed;
+    background: url(https://res.cloudinary.com/karinoldbring/image/upload/v1657548754/BloomRoom/static/site_images/frontimage.9efa927d8f30.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100vh;
 }
