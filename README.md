@@ -54,3 +54,6 @@ Solution: I was trying to send emails from a gmail which doesn't work on the dev
 
 Error: When trying to view irder history an Error regarding unexpected keyword argument 'order_number' was thrown. 
 Solution: It turned out I had the wrong URL path for the order_history instead of views.order_history I had views.profile. 
+
+Error: When trying to checkout from the deployed app on Heroku, an error was thrown stating no API key was provided. 
+Solution: I added the stripe keys to my Config Vars on Heroku which fixed the error. 
