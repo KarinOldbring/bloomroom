@@ -17,9 +17,8 @@ def all_products(request):
     categories = None
     sort = None
     direction = None
-    sorting = f''	
+    sorting = f''
     categories = Category.objects.all()
-
 
     if request.GET:
         if 'sort' in request.GET:
@@ -49,7 +48,7 @@ def all_products(request):
             if not query:
                 messages.error(request, "Please enter a search criteria!")
                 return redirect(reverse('products'))
-            
+
             queries = Q(name__icontains=query) | Q(description__icontains=
                                                    query)
             products = products.filter(queries)
@@ -87,7 +86,7 @@ def add_product(request):
     Add product
     """
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, you are not authorized for that action')
+        messages.error(request, 'Sorry, you are unauthorized for that action')
         return redirect(reverse('home'))
 
     if request.method == 'POST':
@@ -97,10 +96,10 @@ def add_product(request):
             messages.success(request, 'Product added!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+            messages.error(request, 'Failed to add product. Please check form')
     else:
         form = ProductForm()
-        
+
     template = 'products/add_product.html'
     context = {
         'form': form,
@@ -115,7 +114,7 @@ def edit_product(request, product_id):
     Edit product
     """
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, you are not authorized for that action')
+        messages.error(request, 'Sorry, you are unauthorized for that action')
         return redirect(reverse('home'))
 
     product = get_object_or_404(Product, pk=product_id)
@@ -126,7 +125,7 @@ def edit_product(request, product_id):
             messages.success(request, 'Product updated!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
+            messages.error(request, 'Failed to update, please check form.')
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')
@@ -146,9 +145,9 @@ def delete_product(request, product_id):
     Delete product
     """
     if not request.user.is_superuser:
-        messages.error(request, 'Sorry, you are not authorized for that action')
+        messages.error(request, 'Sorry, you are unauthorized for that action')
         return redirect(reverse('home'))
-        
+
     product = get_object_or_404(Product, pk=product_id)
     product.delete()
     messages.success(request, 'Product deleted!')

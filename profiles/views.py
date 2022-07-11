@@ -19,7 +19,7 @@ def profile(request):
             form.save()
             messages.success(request, 'Your profile has been updated!')
         else:
-            messages.error(request, 'Update failed. Please ensure the form is valid.')
+            messages.error(request, 'Update failed, check form validity.')
 
     else:
         form = UserProfileForm(instance=user)
@@ -31,7 +31,6 @@ def profile(request):
         'orders': orders,
         'on_profile_page': True
     }
-
 
     return render(request, template, context)
 
