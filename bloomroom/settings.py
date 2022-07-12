@@ -179,7 +179,8 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 MEDIA_URL = '/media/'
-DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+# DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 
 if 'USE_AWS' in os.environ:
     AWS_STORAGE_BUCKET_NAME = 'bloomroom.herokuapp.com'
@@ -200,13 +201,10 @@ if 'USE_AWS' in os.environ:
 
 
 STATIC_URL = '/static/'
-STATICFILES_STORAGE = (
+# STATICFILES_STORAGE = (
     'cloudinary_storage.storage.StaticHashedCloudinaryStorage'
 )
 
-if not DEBUG:
-    MEDIA_URL = '/media/'
-    STATIC_URL = '/BloomRoom/static/'
 
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),]
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
