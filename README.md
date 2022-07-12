@@ -101,3 +101,7 @@ Solution: It turned out I had the wrong URL path for the order_history instead o
 
 Error: When trying to checkout from the deployed app on Heroku, an error was thrown stating no API key was provided. 
 Solution: I added the stripe keys to my Config Vars on Heroku which fixed the error. 
+
+Error: My biggest and most challenging bug was when I decided to make a switch from Cloudinary Storage to AWS. I encountered an etag error when using cloudinary and since not even the excellent help at Tutor support managed to combat that bug I decided to get rid of cloudinary and start over with aws. After making the setup the images and css was still not rendering correctly. Afte lots of troubleshooting and with amazing help from John Traas from CI he discovered two bugs in my setup. 
+First solution - the Secret Access Key I got from AWS contained a forward slash (/) which causes an error that not even Amazon are able to tackle apperently. Second solution - the name I had chosen for my bucket was the same as my heroku app name which caused a name error. Hence I had to create a new bucket and do the setup etc once more. 
+After this the site was rendering correctly apart from all the product images. This was because the media folder where the images are stored were not downloaded into the bucket automatically. After manually creating a media folder in the bucket, and uploading all of the images to it, the site was functioning as expected. 
