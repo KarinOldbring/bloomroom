@@ -92,11 +92,15 @@ My goal for this project was to create a userfriendly site for people who want t
 
 **Design Goals**
 
-Since the site features lots of images of plants and flowers I wanted a very subtle touch, and no sharp background colors that can disturb and take away focus from the product images.
+Since the site features lots of images of plants and flowers I wanted a very subtle touch, and no sharp background colors that can disturb and take away focus from the product images. It was also  important to me that the site looks good and functions well on all devices, regardless of screen size. One of the main focuses of the site is naturally to sell products, and I believe that keeping the design clean and well structured is a good way to encourage shopping and making the customers wanting to come back. 
 
 **Design Choices**
 
 * Font
+
+To stay aligned with my aim to present a clean and sophisticated site I chose an elegant font called Bellefair as the Heading font and the classic Source Sans Pro for all other text. 
+
+![Google Font](/static/site_images/font.png)
 
 * Color Scheme
 
