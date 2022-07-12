@@ -63,7 +63,7 @@ The business model for this store would be a B2C (Business to Customer) model, a
 
 The initial step in this project was to create a visual general idea of what the page should look like. Although it can be fun to get creative and come up with lots of ideas when it comes to designing a webpage as a user it is very convenient to feel "at home" even the first time you visit the site. With that said I wanted to create a unique looking site but I wanted the common features to be presented and placed in conventional spots on the page, for example the search bar should be on top of the page, always easy to find. 
 
-Since the site features lots of images of plants and flowers I wanted a very subtle touch, and no sharp background colors that can disturb and take away focus from the product images. 
+Since the site features lots of images of plants and flowers I wanted a very subtle touch, and no sharp background colors that can disturb and take away focus from the product images. Early on I also created wireframes for the site, to have a better idea of what I was aiming for. 
 
 **Project Goals**
 
@@ -96,7 +96,7 @@ Solution: I had pasted the stripe public and secret key in my Gitpod variables, 
 Error: Emails not being sent out
 Solution: I was trying to send emails from a gmail which doesn't work on the development server, after I put DEVELOPMENT="True" in my env.py file the emails were sent out s expected. 
 
-Error: When trying to view irder history an Error regarding unexpected keyword argument 'order_number' was thrown. 
+Error: When trying to view order history an Error regarding unexpected keyword argument 'order_number' was thrown. 
 Solution: It turned out I had the wrong URL path for the order_history instead of views.order_history I had views.profile. 
 
 Error: When trying to checkout from the deployed app on Heroku, an error was thrown stating no API key was provided. 
