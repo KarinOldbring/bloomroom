@@ -110,13 +110,16 @@ Due to the very nature of the products sold on the site there was no need for lo
 
 * Logo BloomRoom
 
-The BloomRoom logo was created using ![Canva.com](https://www.canva.com/). Since the logo was too detailed to use as a Favicon I chose to design a special Favicon logo with the letters BR, short for the company name BloomRoom. 
+The BloomRoom logo was created using [Canva.com](https://www.canva.com/). Since the logo was too detailed to use as a Favicon I chose to design a special Favicon logo with the letters BR, short for the company name BloomRoom. 
 
 ![Logo](/static/site_images/logo.png)
 
-![Favicon-logo](/static/site_images/favicon-logo.png)
+![Favicon-logo](/static/site_images/favicon-logo.png) - Favicon Logo
+
 
 * Images
+
+All images on the site are taken from [Pexels.com](https://www.pexels.com/). Pexels provides high quality and completely free stock photos licensed under the Pexels license. 
 
 
 
