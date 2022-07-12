@@ -1,5 +1,7 @@
 # **BloomRoom**
 
+![BloomRoom](/static/site_images/amiresponsive.png)
+
 [View the live project here](https://bloomroom.herokuapp.com/)
 
 ## Contents
