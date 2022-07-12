@@ -104,6 +104,10 @@ To stay aligned with my aim to present a clean and sophisticated site I chose an
 
 * Color Scheme
 
+Due to the very nature of the products sold on the site there was no need for lots of extra color and distraction. To keep the site visually appealing I chose to give the header and footer a light grey-blue background, and the logo and front page welcome text was given a very dark green color. 
+
+![Color Scheme](/static/site_images/color.png)
+
 * Logo BloomRoom
 
 * Images
