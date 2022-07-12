@@ -114,6 +114,8 @@ The BloomRoom logo was created using ![Canva.com](https://www.canva.com/). Since
 
 ![Logo](/static/site_images/logo.png)
 
+![Favicon-logo](/static/site_images/favicon-logo.png)
+
 * Images
 
 
