@@ -54,9 +54,14 @@ Orders over 40$ are free and users can easily see when shopping when they have r
 
 **Business Plan**
 
-The fact that more and more trade is conducted online hardly comes as news to anyone. Especially since the pandemic more people wish to do their shopping from home to avoid crowded stores. Also, with more flexible working hours it's become more important to be able to do your shopping whenever it suits you, without having to adjust to opening hours. The pandemic was turbulent in many ways but for the flower/plant industry it has been blooming to say the least, and there's no sign of it slowing down! Lots of people staying home more than usual made them pay more attention to their home environment and wanting to invest more in their homes. Even though a lot of our everyday shopping has been online since many years the plant industry is falling behind. There are not that many online plant shops and that's why there certainly is room for a new actor! The strategy is to offer popular, high quality plants and full support for our costumers. Customers can call or email to get help and advice regarding already purchased products or if they wish to have recommendations regarding suitable plants for their homes. A userfriendly website, easy to navigate with secure and fast checkout will make our users loyal customers! 
+The fact that more and more trade is conducted online hardly comes as news to anyone. Especially since the pandemic more people wish to do their shopping from home to avoid crowded stores. Also, with more flexible working hours it's become more important to be able to do your shopping whenever it suits you, without having to adjust to opening hours. The pandemic was turbulent in many ways but for the flower/plant industry it has been blooming to say the least, and there's no sign of it slowing down! Lots of people staying home more than usual made them pay more attention to their home environment and wanting to invest more in their homes. Even though a lot of our everyday shopping has been online since many years the plant industry is falling behind. There are not that many online plant shops and that's why there certainly is room for a new actor! 
+The business model for this store would be a B2C (Business to Customer) model, as the business would be selling products directly from ourselves to the customer. The strategy is to offer popular, high quality plants and full support for our costumers. Customers can call or email to get help and advice regarding already purchased products or if they wish to have recommendations regarding suitable plants for their homes. A userfriendly website, easy to navigate with secure and fast checkout will make our users loyal customers! 
 
 **Planning Stage**
+
+The initial step in this project was to create a visual general idea of what the page should look like. Although it can be fun to get creative and come up with lots of ideas when it comes to designing a webpage as a user it is very convenient to feel "at home" even the first time you visit the site. With that said I wanted to create a unique looking site but I wanted the common features to be presented and placed in conventional spots on the page, for example the search bar should be on top of the page, always easy to find. 
+
+Since the site features lots of images of plants and flowers I wanted a very subtle touch, and no sharp background colors that can disturb and take away focus from the product images. 
 
 **Project Goals**
 
@@ -82,7 +87,7 @@ The fact that more and more trade is conducted online hardly comes as news to an
 
 
 
-**Bugs
+**Bugs**
 Error: Stripe Webhooks throwing throwing signature error
 Solution: I had pasted the stripe public and secret key in my Gitpod variables, but not the webhook key. After consulting tutor support I was adviced to put them in my env.py file instead along with the wh-key. 
 
