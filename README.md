@@ -62,10 +62,8 @@ The business model for this store would be a B2C (Business to Customer) model, a
 **Planning Stage**
 
 The initial step in this project was to create a visual general idea of what the page should look like. Although it can be fun to get creative and come up with lots of ideas when it comes to designing a webpage as a user it is very convenient to feel "at home" even the first time you visit the site. With that said I wanted to create a unique looking site but I wanted the common features to be presented and placed in conventional spots on the page, for example the search bar should be on top of the page, always easy to find. 
-
-Since the site features lots of images of plants and flowers I wanted a very subtle touch, and no sharp background colors that can disturb and take away focus from the product images. Early on I also created wireframes for the site, to have a better idea of what I was aiming for. 
-
-One of many things I take away from this project is that you can't plan too much. Looking back I should have spent more time planning to be able to structure my work better.
+Early on I also created wireframes for the site, to have a better idea of what I was aiming for. I also created all my user stories to make sure I applied all functionalities I wanted. 
+One of many things I take away from this project is that you can't plan too much. Looking back I should have spent more time planning to be able to structure my work better and probably some time as well. With that said, overall I stuck to the inital plan regarding the project. 
 
 **Project Goals**
 
@@ -93,6 +91,8 @@ My goal for this project was to create a userfriendly site for people who want t
 * As a site owner I can send confirmation and informational emails to my customers. 
 
 **Design Goals**
+
+Since the site features lots of images of plants and flowers I wanted a very subtle touch, and no sharp background colors that can disturb and take away focus from the product images.
 
 **Design Choices**
 
