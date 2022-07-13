@@ -174,7 +174,14 @@ All images on the site are taken from [Pexels.com](https://www.pexels.com/). Pex
 |            | grand_total              | DecimalField  |
 |            | original_bag             | TextField     |
 |            | stripe_pid               | CharField     |
+
 *OrderLineItem*
+| Key:       | Name:          | Type:        |
+|------------|----------------|--------------|
+| ForeignKey | order          | User Model   |
+| ForeignKey | product        | User Model   |
+|            | quantity       | IntegerField |
+|            | lineitem_total | DecimalField |
 
 *UserProfile*
 | Key:          | Name:           | Type:      |
