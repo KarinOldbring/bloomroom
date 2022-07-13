@@ -154,7 +154,26 @@ All images on the site are taken from [Pexels.com](https://www.pexels.com/). Pex
 *Categories*
 
 *Order*
-
+| Key:       | Name:                    | Type:         |
+|------------|--------------------------|---------------|
+|            | order_number             | CharField     |
+| ForeignKey | user_profile             | User Model    |
+|            | full_name                | CharField     |
+|            | email                    | EmailField    |
+|            | phone_number             | CharField     |
+|            | country                  | CountryField  |
+|            | postcode                 | CharField     |
+|            | town_or_city             | CharField     |
+|            | street_address1          | CharField     |
+|            | street_address2          | CharField     |
+|            | county                   | CharField     |
+|            | additional_shipping_info | TextField     |
+|            | date                     | DateTimeField |
+|            | delivery_cost            | DecimalField  |
+|            | order_total              | DecimalField  |
+|            | grand_total              | DecimalField  |
+|            | original_bag             | TextField     |
+|            | stripe_pid               | CharField     |
 *OrderLineItem*
 
 *UserProfile*
