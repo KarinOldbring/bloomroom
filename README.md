@@ -168,6 +168,12 @@ The is a simple and easy page for users to sign up for an account to be able to 
 
 From here users who already have an account can sign in to access their profile page. 
 
+*Log Out*
+
+![Log Out](/static/site_images/wf-logout.png)
+
+When logged in users are done on the page they can choose to log out from their user account. 
+
 
 
 
