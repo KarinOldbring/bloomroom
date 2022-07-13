@@ -180,8 +180,11 @@ When logged in users are done on the page they can choose to log out from their 
 
 By clicking on the bag icon in the navigation bar, logged in users can easily access their shopping bag. From here they can see the content in the bag and product information of their selected items. From here they can also update and/or delete items as well as proceed to checkout or keep shopping. 
 
+*Checkout*
 
+![Checkout](/static/site_images/wf-checkout.png)
 
+When the customer is done shopping they can click on the checkout to complete their purchase. From this view they can see either their prefilled information, add new information or update if they wish. The customer is asked to provide billing details such as credit card information to complete the purchase. 
 
 [Back to content](#contents)
 
