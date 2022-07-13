@@ -270,7 +270,32 @@ When the customer is done shopping they can click on the checkout to complete th
 
 [Back to content](#contents)
 
-**Bugs**
+## **Features**
+
+**Design Features**
+
+**Existing Features**
+
+**Future Features**
+
+[Back to content](#contents)
+
+## **SEO Implementation**
+
+[Back to content](#contents)
+
+## **Marketing Techniques**
+
+**Target Audience**
+
+[Back to content](#contents)
+
+## **Testing**
+
+[Back to content](#contents)
+
+## **Bugs**
+
 Error: Stripe Webhooks throwing throwing signature error
 Solution: I had pasted the stripe public and secret key in my Gitpod variables, but not the webhook key. After consulting tutor support I was adviced to put them in my env.py file instead along with the wh-key. 
 
@@ -287,5 +312,30 @@ Error: My biggest and most challenging bug was when I decided to make a switch f
 First solution - the Secret Access Key I got from AWS contained a forward slash (/) which causes an error that not even Amazon are able to tackle apperently. Second solution - the name I had chosen for my bucket was the same as my heroku app name which caused a name error. Hence I had to create a new bucket and do the setup etc once more. 
 After this the site was rendering correctly apart from all the product images. This was because the media folder where the images are stored were not downloaded into the bucket automatically. After manually creating a media folder in the bucket, and uploading all of the images to it, the site was functioning as expected. 
 
+[Back to content](#contents)
+
+## **Technology Used**
+
+**Main Languages Used**
+
+**Additional Languages Used**
+
+**Frameworks, Libraries and Programs Used**
+
+[Back to content](#contents)
+
+## **Deployment**
+
+**Deploying on Heroku**
+
+[Back to content](#contents)
+
+## **Credits**
+
+**Media**
+
+**Code**
+
+**Acknowledgements**
 
 [Back to content](#contents)
