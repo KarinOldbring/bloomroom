@@ -174,6 +174,12 @@ From here users who already have an account can sign in to access their profile 
 
 When logged in users are done on the page they can choose to log out from their user account. 
 
+*Shopping Bag*
+
+![Shopping Bag](/static/site_images/wf-bag.png)
+
+By clicking on the bag icon in the navigation bar, logged in users can easily access their shopping bag. From here they can see the content in the bag and product information of their selected items. From here they can also update and/or delete items as well as proceed to checkout or keep shopping. 
+
 
 
 
