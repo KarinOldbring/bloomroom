@@ -52,7 +52,9 @@ def checkout(request):
             'street_address1': request.POST['street_address1'],
             'street_address2': request.POST['street_address2'],
             'county': request.POST['county'],
-            'additional_shipping_info': request.POST['additional_shipping_info'],
+            'additional_shipping_info': (
+                request.POST['additional_shipping_info'],
+            )
         }
         order_form = OrderForm(form_data)
         if order_form.is_valid():
