@@ -270,6 +270,10 @@ When the customer is done shopping they can click on the checkout to complete th
 
 [Back to content](#contents)
 
+**Robots**
+
+[Back to content](#contents)
+
 ## **Features**
 
 **Design Features**
