@@ -17,7 +17,6 @@
         * [Logo BloomRoom](#Logo-BloomRoom)
         * [Images](#Images)
     * [Wireframes](#Wireframes)
-    * [Site-Map](#Site-Map)
 
 * **[Features](#Features)**
     * [Design Features](#Design-Features)
