@@ -162,6 +162,12 @@ When viewing all products, the user can easily access the full information regar
 
 The is a simple and easy page for users to sign up for an account to be able to shop more easily and keep track of their previous purchases. 
 
+*Sign In*
+
+![Sign In](/static/site_images/wf-signin.png)
+
+From here users who already have an account can sign in to access their profile page. 
+
 
 
 
