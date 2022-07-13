@@ -156,6 +156,14 @@ When clicking on Products, either from the dropdown menu in the navigation bar o
 
 When viewing all products, the user can easily access the full information regarding a specific product by clicking on the image or the name of the product. This redirects the user to the product detail page, where the user can see all information. From here the user can go back to the products page or choose to add the item in the bag. 
 
+*Sign Up*
+
+![Sign Up](/static/site_images/wf-signup.png)
+
+The is a simple and easy page for users to sign up for an account to be able to shop more easily and keep track of their previous purchases. 
+
+
+
 
 [Back to content](#contents)
 
