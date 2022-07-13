@@ -8,10 +8,10 @@ from django.conf import settings
 import stripe
 from bag.contexts import bag_contents
 from products.models import Product
-from .forms import OrderForm
-from .models import Order, OrderLineItem
 from profiles.forms import UserProfileForm
 from profiles.models import UserProfile
+from .forms import OrderForm
+from .models import Order, OrderLineItem
 import json
 
 
@@ -52,6 +52,7 @@ def checkout(request):
             'street_address1': request.POST['street_address1'],
             'street_address2': request.POST['street_address2'],
             'county': request.POST['county'],
+            'additional_shipping_info': request.POST['additional_shipping_info'],
         }
         order_form = OrderForm(form_data)
         if order_form.is_valid():
