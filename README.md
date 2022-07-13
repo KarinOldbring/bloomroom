@@ -131,11 +131,18 @@ All images on the site are taken from [Pexels.com](https://www.pexels.com/). Pex
 
 Site moc-ups were designed using [Balsamiq Wireframes](https://balsamiq.com/). Since the site is built to be fully responsive one of the design goals was that the user should recognize the different pages and sections of the page no matter what size they were using. 
 
-*Frontpage*
+*Front Page*
 
 ![Front Page](/static/site_images/wf-index.png)
 
 The front page is designed to give the user an instant understanding of the purpose of the page. From the home page you can easily access all product, account features, shopping bag etc. 
+
+*About Page*
+
+![About Page](/static/site_images/wf-about.png)
+
+The about page is strictly for informational purpose. Here you can find information about BloomRoom and read about why to choose BloomRoom as your plant supplier. 
+
 
 
 [Back to content](#contents)
