@@ -104,7 +104,12 @@ To stay aligned with my aim to present a clean and sophisticated site I chose an
 
 * Color Scheme
 
-Due to the very nature of the products sold on the site there was no need for lots of extra color and distraction. To keep the site visually appealing I chose to give the header and footer a light grey-blue background, and the logo and front page welcome text was given a very dark green color. 
+Due to the very nature of the products sold on the site there was no need for lots of extra color and distraction. To keep the site visually appealing I chose to give the header and footer a light grey-blue background, and the logo and front page welcome text was given a very dark green color. Besides these colors I chose to keep the background color white and the text black. 
+
+- Light grey/blue: #e9edf1
+- Dark green: #253224
+- White: #ffffff
+- Black: #000000
 
 ![Color Scheme](/static/site_images/color.png)
 
@@ -121,13 +126,43 @@ The BloomRoom logo was created using [Canva.com](https://www.canva.com/). Since 
 
 All images on the site are taken from [Pexels.com](https://www.pexels.com/). Pexels provides high quality and completely free stock photos licensed under the Pexels license. 
 
-**Wireframes**
+## **Wireframes**
+
+
+
+
+
+## **Information Architecture**
+
+**Database Models**
+
+***ERD - Entity Relationship Diagram***
+
+
+*Products*
+| Key:       | Name:       | Type:        |
+|------------|-------------|--------------|
+| ForeignKey | Category    | User Model   |
+|            | Sku         | CharField    |
+|            | Name        | CharField    |
+|            | Price       | DecimalField |
+|            | Description | TextField    |
+|            | Season      | TextField    |
+|            | image_url   | URLField     |
+|            | image       | ImageField   |
+
+*Categories*
+
+*Order*
+
+*OrderLineItem*
+
+*UserProfile*
+
+
+
 
 **Sitemap**
-
-
-
-
 
 **Bugs**
 Error: Stripe Webhooks throwing throwing signature error
