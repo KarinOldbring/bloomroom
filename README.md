@@ -66,28 +66,30 @@ One of many things I take away from this project is that you can't plan too much
 
 **Project Goals**
 
-My goal for this project was to create a userfriendly site for people who want to shop plants online. By offering a neat site, easy to navigate and make purchases. 
+The app is designed as an e-commerce application that encourages users to make purchases. My goal for this project was to create a userfriendly site for people who want to shop plants online, by offering a neat site that is easy to navigate and make purchases. 
 
 **User Stories**
 
 *Agile methodology was used to create user stories.*
 *GitHub’s Kanban feature was used to track the progress of user stories.*
 
-* As a site user I can search the site to easily find what I am looking for. 
-* As a site user I can view a specific product so that I will get more detailed information. 
-* As a site user I can view the products of the site so that I can see what the store offers. 
-* As a site user I can categorize the products so that I can filter the results. 
-* As a site user I can receive real time notifications to improve my user experience. 
-* As a site user I can create an account so that I can shop from the store. 
-* As a site user I can view my shopping bag so that I have complete overview of my purchase. 
-* As a site user I can view, update and delete my account, so that I can manage my account. 
-* As a site user I can receive emails regarding my purchases. 
-* As a site user I can sign up for a newsletter so that I can take part of news and offers. 
-* As a site owner I can log in to view the current products and their specifics on the site. 
-* As a site owner  I can add new products to the site. 
-* As a site owner I can update products on the site. 
-* As a site owner I can delete products on the site. 
-* As a site owner I can send confirmation and informational emails to my customers. 
+| User Story:                                                                                 | User story satisfied through: |
+|---------------------------------------------------------------------------------------------|-------------------------------|
+| As a site user I can search the site to easily find what I am looking for.                  | Search field                  |
+| As a site user I can view the products of the site so that I can see what the store offers. | Products App                  |
+| As a site user I can view a specific product so that I will get more detailed information.  | Products App                  |
+| As a site user I can categorize the products so that I can filter the results.              | Products App                  |
+| As a site user I can receive real time notifications to improve my user experience.         | Django messages               |
+| As a site user I can create an account so that I can shop from the store.                   | Profiles App                  |
+| As a site user I can view my shopping bag so that I have complete overview of my purchase.  | Bag App                       |
+| As a site user I can view and update my account, so that I can manage my account.           | Profiles App                  |
+| As a site user I can sign up for a newsletter so that I can take part of news and offers.   | Newsletter signup             |
+| As a site user I can receive emails regarding my purchases.                                 | Checkout App                  |
+| As a site owner I can log in to view the current products and their specifics on the site.  | Products App                  |
+| As a site owner I can add new products to the site.                                         | Products App                  |
+| As a site owner I can update products on the site.                                          | Products App                  |
+| As a site owner I can delete products on the site.                                          | Products App                  |
+| As a site owner I can send confirmation and informational emails to my customers.           | Checkout App                  |
 
 **Design Goals**
 
