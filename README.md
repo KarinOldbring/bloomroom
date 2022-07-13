@@ -143,6 +143,12 @@ The front page is designed to give the user an instant understanding of the purp
 
 The about page is strictly for informational purpose. Here you can find information about BloomRoom and read about why to choose BloomRoom as your plant supplier. 
 
+*Products*
+
+![Products](/static/site_images/wf-products.png)
+
+When clicking on Products, either from the dropdown menu in the navigation bar or from the Shop Here link on the middle of the home page, you reach the items that are being sold now. Here you get an overview of the products, an image, name and price. 
+
 
 
 [Back to content](#contents)
