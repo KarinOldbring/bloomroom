@@ -158,6 +158,17 @@ All images on the site are taken from [Pexels.com](https://www.pexels.com/). Pex
 *OrderLineItem*
 
 *UserProfile*
+| Key:          | Name:           | Type:      |
+|---------------|-----------------|------------|
+| OneToOneField | User            | User Model |
+|               | street_address1 | CharField  |
+|               | street_address2 | CharField  |
+|               | postcode        | CharField  |
+|               | town_or_city    | CharField  |
+|               | county          | CharField  |
+|               | email           | EmailField |
+|               | phone_number    | CharField  |
+|               | date            | DateField  |
 
 
 
