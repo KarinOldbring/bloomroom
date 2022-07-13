@@ -121,6 +121,10 @@ The BloomRoom logo was created using [Canva.com](https://www.canva.com/). Since 
 
 All images on the site are taken from [Pexels.com](https://www.pexels.com/). Pexels provides high quality and completely free stock photos licensed under the Pexels license. 
 
+**Wireframes**
+
+**Sitemap**
+
 
 
 
