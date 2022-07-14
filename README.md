@@ -315,6 +315,12 @@ Clicking on the link for All Products in the nav-bar or the Shop Here link on th
 
 When clicking on either a product image or its name you are directed to the product detail view. From here you get all information regarding the plant and you can also choose to add it in your shopping bag. There is also a button to redirect you back to the All products page. If the user is a superuser, there are also options to edit and/or delete the product directly from here. 
 
+#### Manage Product
+
+![Manage Product](/static/site_images/manage-product-page.png)
+
+
+
 **Future Features**
 
 [Back to content](#contents)
