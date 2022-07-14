@@ -743,9 +743,11 @@ class MediaStorage(S3Boto3Storage):
 
 **Media**
 
+* All images on the site are taken from [Pexels](https://www.pexels.com/sv-se/). 
+
 **Code**
 
-References used:
+References used and Inspiration:
 
 * [Bootstrap](https://getbootstrap.com/)
 * [Django Docs](https://docs.djangoproject.com/en/4.0/)
@@ -753,6 +755,7 @@ References used:
 * [w3 Schools](https://www.w3schools.com/)
 * [Crispy Forms Docs](https://django-crispy-forms.readthedocs.io/en/latest/)
 * [Markdown Tables Generator](https://www.tablesgenerator.com/)
+* [Project Boutique Ado from Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+EA101+2021_T1/courseware/eb05f06e62c64ac89823cc956fcd8191/3adff2bf4a78469db72c5330b1afa836/)
 
 **Acknowledgements**
 
