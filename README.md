@@ -346,6 +346,12 @@ When users click on the shoppingbag icon in the nav-bar they are taken to the Sh
 
 When the user is done shopping they can go to the Checkout Page. From here they get to either fill in their shipping and billing information, or just complete the missing parts if they have information saved since before. Besides basic information like address the user can also add additional shipping information, for example in Sweden it is very common that you provide a code for the building front door. After filling out all information, the total amount that will be charged is clearly displayed and the user can then complete the checkout or go back to adjust the bag. 
 
+#### Order Confirmation
+
+![Order Confirmation](/static/site_images/order-confirmation-page.png)
+
+
+
 
 **General Features**
 
