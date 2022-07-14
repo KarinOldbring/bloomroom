@@ -356,7 +356,7 @@ After the user has completed the purchase, the user is directed to the Order Con
 
 ![Newsletter Subscription](/static/site_images/newsletter.png)
 
-Any site user can easily sign up for Newsletter subscription to take part of news, offers etc. By entering their email they will receive newsletters. 
+Any site user can easily sign up for Newsletter subscription to take part of news, offers etc. By entering their email they will receive newsletters. This service is handled by the ![MailChimp Service](https://mailchimp.com).
 
 **General Features**
 
@@ -367,6 +367,9 @@ Any site user can easily sign up for Newsletter subscription to take part of new
 Whenever the user interacts with the page, ie logs in, adds a product to the shopping bag updates their userprofile etc, an alert is displayed. This is a general feature that applies all over the page. 
 
 **Future Features**
+
+* A future version of BloomRoom could feature an option to comment and or rate products on the site. It could be a good way to involve the customers more. 
+* Another feature that could quite easily be managed by the site owner is special offers or even gifts for customers on their birthdays. I included the option to add your date of birth in your Profile, which would enable the site owner to use that information. 
 
 [Back to content](#contents)
 
