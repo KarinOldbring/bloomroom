@@ -334,6 +334,14 @@ Choosing My Profile under the My Account link takes the user to their Profile. T
 From the nav-bar the user can easily access the different options Sign Up, Sign In or Log Out. Depending on the status of the user different options are presented, only logged in users can log out and vice versa. These pages are very straightforward and intentionally the layout is kept simple since the user is not supposed to linger here. From here users can also ask to reset their password in case they forgot it. 
 
 
+**General Features**
+
+* Alert Message
+
+![Alert Message](/static/site_images/alert.png)
+
+Whenever the user interacts with the page, ie logs in, adds a product to the shopping bag updates their userprofile etc, an alert is displayed. This is a general feature that applies all over the page. 
+
 **Future Features**
 
 [Back to content](#contents)
