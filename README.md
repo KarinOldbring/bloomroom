@@ -52,23 +52,22 @@
 BloomRoom is a website where you can buy plants and have them delivered to your home! BloomRoom offers high quality plants and ship all over Europe. Users can create their own profiles so that their shipping and billing information is saved. As a customer you can also see your previous orders and update or delete your profile. 
 Orders over 40$ are free and users can easily see when shopping when they have reached the free shipping limit. Products can be added to the cart and can be purchased using card payment. Order confirmation is sent to the email address provided. Users can also stay updated with all the latest and exclusive offers by following on Facebook page and by subscribing to the monthly newsletter.
 
-**Business Plan**
 ### **Business Plan**
 
 The fact that more and more trade is conducted online hardly comes as news to anyone. Especially since the pandemic more people wish to do their shopping from home to avoid crowded stores. Also, with more flexible working hours it's become more important to be able to do your shopping whenever it suits you, without having to adjust to opening hours. The pandemic was turbulent in many ways but for the flower/plant industry it has been blooming to say the least, and there's no sign of it slowing down! Lots of people staying home more than usual made them pay more attention to their home environment and wanting to invest more in their homes. Even though a lot of our everyday shopping has been online since many years the plant industry is falling behind. There are not that many online plant shops and that's why there certainly is room for a new actor! 
 The business model for this store would be a B2C (Business to Customer) model, as the business would be selling products directly from ourselves to the customer. The strategy is to offer popular, high quality plants and full support for our costumers. Customers can call or email to get help and advice regarding already purchased products or if they wish to have recommendations regarding suitable plants for their homes. A userfriendly website, easy to navigate with secure and fast checkout will make our users loyal customers! 
 
-**Planning Stage**
+### **Planning Stage**
 
 The initial step in this project was to create a visual general idea of what the page should look like. Although it can be fun to get creative and come up with lots of ideas when it comes to designing a webpage as a user it is very convenient to feel "at home" even the first time you visit the site. With that said I wanted to create a unique looking site but I wanted the common features to be presented and placed in conventional spots on the page, for example the search bar should be on top of the page, always easy to find. 
 Early on I also created wireframes for the site, to have a better idea of what I was aiming for. I also created all my user stories to make sure I applied all functionalities I wanted. 
 One of many things I take away from this project is that you can't plan too much. Looking back I should have spent more time planning to be able to structure my work better and probably some time as well. With that said, overall I stuck to the inital plan regarding the project. 
 
-**Project Goals**
+### **Project Goals**
 
 The app is designed as an e-commerce application that encourages users to make purchases. My goal for this project was to create a userfriendly site for people who want to shop plants online, by offering a neat site that is easy to navigate and make purchases. 
 
-**User Stories**
+### **User Stories**
 
 *Agile methodology was used to create user stories.*
 *GitHub’s Kanban feature was used to track the progress of user stories.*
@@ -91,11 +90,11 @@ The app is designed as an e-commerce application that encourages users to make p
 | As a site owner I can delete products on the site.                                          | Products App                  |
 | As a site owner I can send confirmation and informational emails to my customers.           | Checkout App                  |
 
-**Design Goals**
+### **Design Goals**
 
 Since the site features lots of images of plants and flowers I wanted a very subtle touch, and no sharp background colors that can disturb and take away focus from the product images. It was also  important to me that the site looks good and functions well on all devices, regardless of screen size. One of the main focuses of the site is naturally to sell products, and I believe that keeping the design clean and well structured is a good way to encourage shopping and making the customers wanting to come back. 
 
-**Design Choices**
+### **Design Choices**
 
 * Font
 
@@ -198,7 +197,7 @@ When the customer is done shopping they can click on the checkout to complete th
 
 ## **Information Architecture**
 
-**Database Models**
+### **Database Models**
 
 ***ERD - Entity Relationship Diagram***
 
@@ -268,7 +267,7 @@ When the customer is done shopping they can click on the checkout to complete th
 
 ## **Features**
 
-**Existing Features**
+### **Existing Features**
 
 ### Header
 
@@ -350,7 +349,7 @@ After the user has completed the purchase, the user is directed to the Order Con
 
 Any site user can easily sign up for Newsletter subscription to take part of news, offers etc. By entering their email they will receive newsletters. This service is handled by the [MailChimp Service](https://mailchimp.com).
 
-**General Features**
+### **General Features**
 
 * Alert Message
 
@@ -358,7 +357,7 @@ Any site user can easily sign up for Newsletter subscription to take part of new
 
 Whenever the user interacts with the page, ie logs in, adds a product to the shopping bag updates their userprofile etc, an alert is displayed. This is a general feature that applies all over the page. 
 
-**Future Features**
+### **Future Features**
 
 * A future version of BloomRoom could feature an option to comment and or rate products on the site. It could be a good way to involve the customers more. 
 * Another feature that could quite easily be managed by the site owner is special offers or even gifts for customers on their birthdays. I included the option to add your date of birth in your Profile, which would enable the site owner to use that information. 
@@ -384,11 +383,11 @@ I used the following words as Meta keywords to optimize SEO:
 
 All images displayed on the page have descriptive alternative text for better search engine optimzation. 
 
-**Sitemap**
+### **Sitemap**
 
 [Back to content](#contents)
 
-**Robots**
+### **Robots**
 
 [Back to content](#contents)
 
@@ -397,7 +396,7 @@ All images displayed on the page have descriptive alternative text for better se
 
 ## **Marketing Techniques**
 
-**Target Audience**
+### **Target Audience**
 
 The site owner imagines their typical customer to be a person of the age of somewhere between 20-50 years. The typical customer probably lives in an urban environment and does not have easy access to regular plant retailers. They are used to online shopping an appreciate the convenience of conducting their shopping online. This type of audience make Social Media platforms an extremely important place to advertise and be visible. 
 
@@ -454,7 +453,7 @@ After this the site was rendering correctly apart from all the product images. T
 
 ## **Technology Used**
 
-**Main Languages Used**
+### **Main Languages Used**
 
 - HTML5
 - CSS3
@@ -463,7 +462,7 @@ After this the site was rendering correctly apart from all the product images. T
 - Python
 - Django
 
-**Frameworks, Libraries and Programs Used**
+### **Frameworks, Libraries and Programs Used**
 
 - [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Link to Bootstrap page")
      - Bootstrap was used to implement the responsiveness of the site, using bootstrap classes, but also other styling such as buttons etc.
@@ -521,7 +520,6 @@ After this the site was rendering correctly apart from all the product images. T
 
     * Database URL will be added automaticaly
     * Secret_key - is the django secret key and it can be generated [here](https://miniwebtool.com/django-secret-key-generator/). 
-
 
 **Go back to your code**
 
@@ -600,7 +598,6 @@ PostgreSQL and AWS keys are needed only on Heroku, not in local IDE
 pip3 install -r requirements.txt
 ```
 
-
 ### Getting Stripe keys
 Go to developers tab. On side menu you will find API keys. Copy STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY.
 
@@ -611,7 +608,6 @@ Then click add endpoint
 You should be redirected to this webhooks page. Reveal webhook sign in secret key and copy to Settings and to heroku as STRIPE_WH_SECRET variable
 
 ### Getting email variables from gmail
-
 
 - Log into gmail account
 - Go to Settings and than See all settings
@@ -626,9 +622,7 @@ In Heroku
 EMAIL_HOST_PASS is the password copied from above.
 EMAIL_HOST_USER is the gmail email address
 
-
 ### Setting AWS bucket
-
 
 1. Go to [Amzon Web Services](https://aws.amazon.com/) page and login or register
 
@@ -639,7 +633,6 @@ EMAIL_HOST_USER is the gmail email address
 4. Create New Bucket using **Create Bucket** button in top right hand corner
 
 - **Configuration:** Type in your chosen name for the bucket (preferably matching your heroku app name, but it should not be identical) and AWS Region closest to you
-
 
 - **Object ownership:** ACLs enabled, Bucket owner preferred
 
@@ -654,7 +647,6 @@ EMAIL_HOST_USER is the gmail email address
 
 7. On the **Permissions** tab:
 - Cross-origin resource sharing (**CORS**) Paste in the below code as configuration and save
-
 
 [
   {
@@ -717,7 +709,6 @@ Click button at the bottom right for Next
 Click Next Tags and Next: review and Create user
 - Download .csv file
 
-
 11. Connect django to AWS S3 bucket
 - Install boto3
 - Install django-storages
@@ -743,21 +734,16 @@ Open CSV file downloaded earlier and copy each variable into heroku Settings
 
 13. Create file in root directory custom_storages.py
 
-
 from django.conf import settings
 from storages.backends.s3boto3 import S3Boto3Storage
-
 
 class StaticStorage(S3Boto3Storage):
     location = settings.STATICFILES_LOCATION
 
-
 class MediaStorage(S3Boto3Storage):
     location = settings.MEDIAFILES_LOCATION
 
-
 14. Go to settings.py, add the AWS settings
-
 
 # Static and media files
     STATICFILES_STORAGE = 'custom_storages.StaticStorage'
@@ -769,8 +755,6 @@ class MediaStorage(S3Boto3Storage):
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
-
-
 15. To load the media files to S3 bucket
 
 - Go to your S3 bucket page on AWS. Create new folder "media"
@@ -780,11 +764,11 @@ class MediaStorage(S3Boto3Storage):
 
 ## **Credits**
 
-**Media**
+### **Media**
 
 * All images on the site are taken from [Pexels](https://www.pexels.com/sv-se/). 
 
-**Code**
+### **Code**
 
 References used and Inspiration:
 
@@ -796,6 +780,6 @@ References used and Inspiration:
 * [Markdown Tables Generator](https://www.tablesgenerator.com/)
 * [Project Boutique Ado from Code Institute](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+EA101+2021_T1/courseware/eb05f06e62c64ac89823cc956fcd8191/3adff2bf4a78469db72c5330b1afa836/)
 
-**Acknowledgements**
+### **Acknowledgements**
 
 [Back to content](#contents)
