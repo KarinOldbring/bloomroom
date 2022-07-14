@@ -383,12 +383,18 @@ Whenever the user interacts with the page, ie logs in, adds a product to the sho
 
 ### Social Media
 
+#### Facebook
+
 [BloomRoom Facebook Page](https://www.facebook.com/BloomRoom-110804875024055/?ref=pages_you_manage)
 *Since Facebook regularly deletes mock-up pages I can not guarantee that the page will still be there, hence I have taken screen shots of the created page. Although I have written the content of the page in English, the rest of the site is in Swedish since it was created in connection to my personal account.*
 
 ![Facebook 1](/static/site_images/FB-1.png)
 ![Facebook 2](/static/site_images/FB-2.png)
 ![Facebook 3](/static/site_images/FB-3.png)
+
+#### Instagram
+
+Although this site does not yet have an Instagram account, creating one would be on the very top of my marketing strategies list. Lots of younger people today do not use Facebook in such extent and many customers turn to Instagram first. If the timeframe would have allowed it I would have created an Instagramm account for this site as well, but that will have to wait. 
 
 
 
