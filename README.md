@@ -370,6 +370,7 @@ Whenever the user interacts with the page, ie logs in, adds a product to the sho
 
 * A future version of BloomRoom could feature an option to comment and or rate products on the site. It could be a good way to involve the customers more. 
 * Another feature that could quite easily be managed by the site owner is special offers or even gifts for customers on their birthdays. I included the option to add your date of birth in your Profile, which would enable the site owner to use that information. 
+* As of now if a user wishes to delete their user profile, they are advised to send an email. This is not optimal and a future version would definitely include this option for the user. 
 
 [Back to content](#contents)
 
