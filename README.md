@@ -319,7 +319,7 @@ When clicking on either a product image or its name you are directed to the prod
 
 ![Manage Product](/static/site_images/manage-product-page.png)
 
-
+As a superuser you can easily navigate to manage specific products by clicking the Edit or Delete button. Clicking the Delete button removes the item immediately whilst clicking Edit takes you to the page displayed above. Here the superuser can update all details regarding the product. 
 
 **Future Features**
 
