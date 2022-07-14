@@ -12,10 +12,10 @@
     * [User Stories](#User-Stories)
     * [Design Goals](#Design-Goals)
     * [Design Choices](#Design-Choices)
-        * [Font](#Font)
-        * [Color Scheme](#Color-Scheme)
-        * [Logo BloomRoom](#Logo-BloomRoom)
-        * [Images](#Images)
+        * Font
+        * Color Scheme
+        * Logo BloomRoom
+        * Images
     * [Wireframes](#Wireframes)
 
 * **[Features](#Features)**
@@ -57,15 +57,21 @@ Orders over 40$ are free and users can easily see when shopping when they have r
 The fact that more and more trade is conducted online hardly comes as news to anyone. Especially since the pandemic more people wish to do their shopping from home to avoid crowded stores. Also, with more flexible working hours it's become more important to be able to do your shopping whenever it suits you, without having to adjust to opening hours. The pandemic was turbulent in many ways but for the flower/plant industry it has been blooming to say the least, and there's no sign of it slowing down! Lots of people staying home more than usual made them pay more attention to their home environment and wanting to invest more in their homes. Even though a lot of our everyday shopping has been online since many years the plant industry is falling behind. There are not that many online plant shops and that's why there certainly is room for a new actor! 
 The business model for this store would be a B2C (Business to Customer) model, as the business would be selling products directly from ourselves to the customer. The strategy is to offer popular, high quality plants and full support for our costumers. Customers can call or email to get help and advice regarding already purchased products or if they wish to have recommendations regarding suitable plants for their homes. A userfriendly website, easy to navigate with secure and fast checkout will make our users loyal customers! 
 
+[Back to content](#contents)
+
 ### **Planning Stage**
 
 The initial step in this project was to create a visual general idea of what the page should look like. Although it can be fun to get creative and come up with lots of ideas when it comes to designing a webpage as a user it is very convenient to feel "at home" even the first time you visit the site. With that said I wanted to create a unique looking site but I wanted the common features to be presented and placed in conventional spots on the page, for example the search bar should be on top of the page, always easy to find. 
 Early on I also created wireframes for the site, to have a better idea of what I was aiming for. I also created all my user stories to make sure I applied all functionalities I wanted. 
 One of many things I take away from this project is that you can't plan too much. Looking back I should have spent more time planning to be able to structure my work better and probably some time as well. With that said, overall I stuck to the inital plan regarding the project. 
 
+[Back to content](#contents)
+
 ### **Project Goals**
 
 The app is designed as an e-commerce application that encourages users to make purchases. My goal for this project was to create a userfriendly site for people who want to shop plants online, by offering a neat site that is easy to navigate and make purchases. 
+
+[Back to content](#contents)
 
 ### **User Stories**
 
@@ -89,6 +95,8 @@ The app is designed as an e-commerce application that encourages users to make p
 | As a site owner I can update products on the site.                                          | Products App                  |
 | As a site owner I can delete products on the site.                                          | Products App                  |
 | As a site owner I can send confirmation and informational emails to my customers.           | Checkout App                  |
+
+[Back to content](#contents)
 
 ### **Design Goals**
 
@@ -349,6 +357,8 @@ After the user has completed the purchase, the user is directed to the Order Con
 
 Any site user can easily sign up for Newsletter subscription to take part of news, offers etc. By entering their email they will receive newsletters. This service is handled by the [MailChimp Service](https://mailchimp.com).
 
+[Back to content](#contents)
+
 ### **General Features**
 
 * Alert Message
@@ -356,6 +366,8 @@ Any site user can easily sign up for Newsletter subscription to take part of new
 ![Alert Message](/static/site_images/alert.png)
 
 Whenever the user interacts with the page, ie logs in, adds a product to the shopping bag updates their userprofile etc, an alert is displayed. This is a general feature that applies all over the page. 
+
+[Back to content](#contents)
 
 ### **Future Features**
 
@@ -383,13 +395,18 @@ I used the following words as Meta keywords to optimize SEO:
 
 All images displayed on the page have descriptive alternative text for better search engine optimzation. 
 
+[Back to content](#contents)
+
 ### **Sitemap**
+
+
+
 
 [Back to content](#contents)
 
 ### **Robots**
 
-[Back to content](#contents)
+
 
 
 [Back to content](#contents)
@@ -461,6 +478,8 @@ After this the site was rendering correctly apart from all the product images. T
 - jQuery
 - Python
 - Django
+
+[Back to content](#contents)
 
 ### **Frameworks, Libraries and Programs Used**
 
@@ -767,6 +786,8 @@ class MediaStorage(S3Boto3Storage):
 ### **Media**
 
 * All images on the site are taken from [Pexels](https://www.pexels.com/sv-se/). 
+
+[Back to content](#contents)
 
 ### **Code**
 
