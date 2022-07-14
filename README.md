@@ -265,14 +265,6 @@ When the customer is done shopping they can click on the checkout to complete th
 
 [Back to content](#contents)
 
-**Sitemap**
-
-[Back to content](#contents)
-
-**Robots**
-
-[Back to content](#contents)
-
 ## **Features**
 
 **Existing Features**
@@ -376,7 +368,28 @@ Whenever the user interacts with the page, ie logs in, adds a product to the sho
 
 ## **SEO Implementation**
 
+I used the following words as Meta keywords to optimize SEO:
 
+- BloomRoom
+- Plant
+- Plant store
+- Flower store
+- Plant shop
+- Plant home delivery
+- Household plants
+- Flower interior
+- Plant decoration
+- Greenery
+
+All images displayed on the page have descriptive alternative text for better search engine optimzation. 
+
+**Sitemap**
+
+[Back to content](#contents)
+
+**Robots**
+
+[Back to content](#contents)
 
 
 [Back to content](#contents)
@@ -385,8 +398,7 @@ Whenever the user interacts with the page, ie logs in, adds a product to the sho
 
 **Target Audience**
 
-
-
+The site owner imagines their typical customer to be a person of the age of somewhere between 20-50 years. The typical customer probably lives in an urban environment and does not have easy access to regular plant retailers. They are used to online shopping an appreciate the convenience of conducting their shopping online. This type of audience make Social Media platforms an extremely important place to advertise and be visible. 
 
 ### Social Media
 
