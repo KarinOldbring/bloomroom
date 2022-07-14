@@ -352,6 +352,10 @@ When the user is done shopping they can go to the Checkout Page. From here they 
 
 After the user has completed the purchase, the user is directed to the Order Confirmation page. From here the user get a full overview of the purchase, shipping and billing information, as well as additional information if that was added. 
 
+#### Newsletter Subscription
+
+![Newsletter Subscription](/static/site_images/newsletter.png)
+
 
 **General Features**
 
