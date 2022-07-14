@@ -375,11 +375,17 @@ Whenever the user interacts with the page, ie logs in, adds a product to the sho
 
 ## **SEO Implementation**
 
+
+
+
 [Back to content](#contents)
 
 ## **Marketing Techniques**
 
 **Target Audience**
+
+
+
 
 ### Social Media
 
@@ -394,11 +400,11 @@ Whenever the user interacts with the page, ie logs in, adds a product to the sho
 
 #### Instagram
 
-Although this site does not yet have an Instagram account, creating one would be on the very top of my marketing strategies list. Lots of younger people today do not use Facebook in such extent and many customers turn to Instagram first. If the timeframe would have allowed it I would have created an Instagramm account for this site as well, but that will have to wait. 
-
-
+Although this site does not yet have an Instagram account, creating one would be on the very top of my marketing strategies list. Lots of younger people today do not use Facebook in such extent and many customers turn to Instagram first. If the timeframe would have allowed it I would have created an Instagramm account for this site as well. 
 
 ### Newsletter
+
+The BloomRoom site has a Newsletter Subscription form, which means that the site owner can send emails regarding special offers, upcoming campaigns, inspo and much more. By enabling the site users to sign up for the Newsletter, it is easy for the site owner to reach their customers with targeted advertising and hence encouraging potential customers to revisit the site again. 
 
 [Back to content](#contents)
 
