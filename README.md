@@ -297,6 +297,12 @@ The footer contains links to the BloomRoom Facebook page and Instagram. On deskt
 
 The home page aims to be eye catching and explanatory at the same time. A sophisticated image showing popular plants greets the user. On the image there is a short description of the page and also a link to get directly to the products. 
 
+#### About Page
+
+![About Page](/static/site_images/about-page.png)
+
+
+
 **Future Features**
 
 [Back to content](#contents)
