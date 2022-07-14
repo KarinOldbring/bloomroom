@@ -291,6 +291,10 @@ The wide nav-bar is with links and icons is displayed on desktop screens. In the
 
 The footer contains links to the BloomRoom Facebook page and Instagram. On desktop screens the logo and en email address is also presented, clicking the logo takes you back to the home page. On the right hand side of the footer there is a sign up form for subscribing to the newsletter. The footer looks basically the same on mobile screens, apart from the mid section containing the logo and email address, that are hidden on smaller screens. 
 
+#### Front Page
+
+![Front Page](/static/site_images/frontpage.png)
+
 
 
 **Future Features**
