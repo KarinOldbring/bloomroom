@@ -331,6 +331,8 @@ Choosing My Profile under the My Account link takes the user to their Profile. T
 
 ![Sign Up/In/Out](/static/site_images/signup-in-out-page.png)
 
+From the nav-bar the user can easily access the different options Sign Up, Sign In or Log Out. Depending on the status of the user different options are presented, only logged in users can log out and vice versa. These pages are very straightforward and intentionally the layout is kept simple since the user is not supposed to linger here. From here users can also ask to reset their password in case they forgot it. 
+
 
 **Future Features**
 
