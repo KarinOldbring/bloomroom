@@ -386,6 +386,8 @@ Whenever the user interacts with the page, ie logs in, adds a product to the sho
 
 ## **Testing**
 
+Testing was done manually throughout the development process. The full rundown of the testing can be found in a separate [testing.md file](/testing.md). 
+
 [Back to content](#contents)
 
 ## **Bugs**
@@ -415,6 +417,13 @@ After this the site was rendering correctly apart from all the product images. T
 ## **Technology Used**
 
 **Main Languages Used**
+
+- HTML5
+- CSS3
+- JavaScript
+- jQuery
+- Python
+- Django
 
 **Additional Languages Used**
 
