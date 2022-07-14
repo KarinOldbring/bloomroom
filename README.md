@@ -19,7 +19,6 @@
     * [Wireframes](#Wireframes)
 
 * **[Features](#Features)**
-    * [Design Features](#Design-Features)
     * [Existing Features](#Existing-Features)
     * [Future Features](#Future-Features)
 
@@ -276,9 +275,13 @@ When the customer is done shopping they can click on the checkout to complete th
 
 ## **Features**
 
-**Design Features**
-
 **Existing Features**
+
+## Header
+
+### Navigation menu
+
+![Navbar Fullsize screen](/static/site_images/navbar-1.png) ![Navbar Mobile](/static/site_images/navbar-2.png)
 
 **Future Features**
 
