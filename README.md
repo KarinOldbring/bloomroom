@@ -685,23 +685,22 @@ Click Next Tags and Next: review and Create user
 - Freeze to requirements.txt
 - Add storages to installed apps in settings.py
 
-    # Bucket Config
+# Bucket Config
     AWS_STORAGE_BUCKET_NAME = os.getenv('AWS_STORAGE_BUCKET_NAME')
     AWS_S3_REGION_NAME = 'eu-north-1'
     AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.getenv('AWS_SECRET_ACCESS_KEY')
     AWS_S3_CUSTOM_DOMAIN = f'{AWS_STORAGE_BUCKET_NAME}.s3.amazonaws.com'
-```
 
 12. Go to heroku to set up enviromental variables
 
 Open CSV file downloaded earlier and copy each variable into heroku Settings
 
-AWS_STORAGE_BUCKET_NAME
-AWS_ACCESS_KEY_ID from csv
-AWS_SECRET_ACCESS_KEY from csv
-USE_AWS = True
-remove DISABLE_COLLECTSTATIC variable from heroku
+    AWS_STORAGE_BUCKET_NAME
+    AWS_ACCESS_KEY_ID from csv
+    AWS_SECRET_ACCESS_KEY from csv
+    USE_AWS = True
+    remove DISABLE_COLLECTSTATIC variable from heroku
 
 13. Create file in root directory custom_storages.py
 
@@ -720,23 +719,23 @@ class MediaStorage(S3Boto3Storage):
 
 14. Go to settings.py, add the AWS settings
 
-```
-    # Static and media files
+
+# Static and media files
     STATICFILES_STORAGE = 'custom_storages.StaticStorage'
     STATICFILES_LOCATION = 'static'
     DEFAULT_FILE_STORAGE = 'custom_storages.MediaStorage'
     MEDIAFILES_LOCATION = 'media'
 
-    # Override static and media URLs in production
+# Override static and media URLs in production
     STATIC_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{STATICFILES_LOCATION}/'
     MEDIA_URL = f'https://{AWS_S3_CUSTOM_DOMAIN}/{MEDIAFILES_LOCATION}/'
 
-```
+
 
 15. To load the media files to S3 bucket
 
 - Go to your S3 bucket page on AWS. Create new folder "media"
-- go to the media folder and click Upload
+- Go to the media folder and click Upload
 
 [Back to content](#contents)
 
@@ -745,6 +744,15 @@ class MediaStorage(S3Boto3Storage):
 **Media**
 
 **Code**
+
+References used:
+
+* [Bootstrap](https://getbootstrap.com/)
+* [Django Docs](https://docs.djangoproject.com/en/4.0/)
+* [Stack Overflow](https://stackoverflow.com/)
+* [w3 Schools](https://www.w3schools.com/)
+* [Crispy Forms Docs](https://django-crispy-forms.readthedocs.io/en/latest/)
+* [Markdown Tables Generator](https://www.tablesgenerator.com/)
 
 **Acknowledgements**
 
