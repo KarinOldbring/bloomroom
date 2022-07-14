@@ -50,7 +50,7 @@
 ## **Introduction**
 
 BloomRoom is a website where you can buy plants and have them delivered to your home! BloomRoom offers high quality plants and ship all over Europe. Users can create their own profiles so that their shipping and billing information is saved. As a customer you can also see your previous orders and update or delete your profile. 
-Orders over 40$ are free and users can easily see when shopping when they have reached the free shipping limit. Products can be added to the cart and can be purchased using card payment. Order confirmation is sent to the email address provided. Users can also stay updated with all the latest and exclusive offers by following on Facebook page and by subscribing to the monthly newsletter.
+Orders over 40$ have free delivery and users can easily see when they have reached the free shipping limit. Products can be added to the cart and can be purchased using card payment. Order confirmation is sent to the email address provided by the customer. Users can also stay updated with all the latest and exclusive offers by following BloomRooms Facebook page and by subscribing to the monthly newsletter.
 
 ### **Business Plan**
 
@@ -446,25 +446,35 @@ Testing was done manually throughout the development process. The full rundown o
 
 ## **Bugs**
 
-Error: Stripe Webhooks throwing throwing signature error
-Solution: I had pasted the stripe public and secret key in my Gitpod variables, but not the webhook key. After consulting tutor support I was adviced to put them in my env.py file instead along with the wh-key. 
+* **Bug:** Stripe Webhooks throwing throwing signature error
+    
+    **Solution:** I had pasted the stripe public and secret key in my Gitpod variables, but not the webhook key. After consulting tutor support I was adviced to put them in my env.py file instead along with the wh-key. 
 
-Error: Emails not being sent out
-Solution: I was trying to send emails from a gmail which doesn't work on the development server, after I put DEVELOPMENT="True" in my env.py file the emails were sent out s expected. 
+* **Bug:**: Emails not being sent out
+    
+    **Solution:** I was trying to send emails from a gmail which doesn't work on the development server, after I put DEVELOPMENT="True" in my env.py file the emails were sent out as expected. 
 
-Error: When trying to view order history an Error regarding unexpected keyword argument 'order_number' was thrown. 
-Solution: It turned out I had the wrong URL path for the order_history instead of views.order_history I had views.profile. 
+* **Bug:** When trying to view order history an Error regarding unexpected keyword argument 'order_number' was thrown. 
+    
+    **Solution:** It turned out I had the wrong URL path for the order_history instead of views.order_history I had views.profile. 
 
-Error: When trying to checkout from the deployed app on Heroku, an error was thrown stating no API key was provided. 
-Solution: I added the stripe keys to my Config Vars on Heroku which fixed the error. 
+* **Bug:** When trying to checkout from the deployed app on Heroku, an error was thrown stating no API key was provided. 
+    
+    **Solution:** I added the stripe keys to my Config Vars on Heroku which fixed the error. 
 
-Error: The webhook stripes started throwing errors again when making purchases. The payment itself went through but not the webhooks. Solution: It turned out I had to remove the trailing slash from the checkout urls.py.
+* **Bug:** The webhook stripes started throwing errors again when making purchases. The payment itself went through but not the webhooks. 
+    
+    **Solution:** It turned out I had to remove the trailing slash from the checkout urls.py.
 
-Error: When clicking all plants I wanted the different sub-categories to show up, but All Plants also showed up as a button. Solution: Initially I had entered All plants as its own category, but I later realized that was abundant and hence removed that category entirely. 
+* **Bug:** When clicking all plants I wanted the different sub-categories to show up, but All Plants also showed up as a button. 
 
-Error: My biggest and most challenging bug was when I decided to make a switch from Cloudinary Storage to AWS. I encountered an etag error when using cloudinary and since not even the excellent help at Tutor support managed to combat that bug I decided to get rid of cloudinary and start over with aws. After making the setup the images and css was still not rendering correctly. Afte lots of troubleshooting and with amazing help from John Traas from CI he discovered two bugs in my setup. 
-First solution - the Secret Access Key I got from AWS contained a forward slash (/) which causes an error that not even Amazon are able to tackle apperently. Second solution - the name I had chosen for my bucket was the same as my heroku app name which caused a name error. Hence I had to create a new bucket and do the setup etc once more. 
-After this the site was rendering correctly apart from all the product images. This was because the media folder where the images are stored were not downloaded into the bucket automatically. After manually creating a media folder in the bucket, and uploading all of the images to it, the site was functioning as expected. 
+    **Solution:** Initially I had entered All plants as its own category, but I later realized that was abundant and hence removed that category entirely which took care of the issue. 
+
+* **Bug:** My biggest and most challenging bug was when I decided to make a switch from Cloudinary Storage to AWS. I encountered an etag error when using cloudinary and since not even the excellent help at Tutor support managed to combat that bug I decided to get rid of cloudinary and start over with aws. After making the setup the images and css was still not rendering correctly. After lots of troubleshooting and with amazing help from John Traas from CI he discovered two bugs in my setup. 
+
+    **First solution:** - The Secret Access Key I got from AWS contained a forward slash (/) which causes an error that not even Amazon are able to tackle apperently. 
+    **Second solution:** - The name I had chosen for my bucket was the same as my heroku app name which caused a name error. Hence I had to create a new bucket and do the setup etc once more. 
+    **Third solution:** After this the site was rendering correctly apart from all the product images. This was because the media folder where the images are stored were not downloaded into the bucket automatically. After manually creating a media folder in the bucket, and uploading all of the images to it, the site was functioning as expected. 
 
 [Back to content](#contents)
 
