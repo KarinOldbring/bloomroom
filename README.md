@@ -340,6 +340,10 @@ From the nav-bar the user can easily access the different options Sign Up, Sign 
 
 When users click on the shoppingbag icon in the nav-bar they are taken to the Shopping Bag view. If there are no items in the shopping bag a message stating that is displayed along with a button directing back to the products site. The Shopping Bag clearly displays the items currently in the bag, and an easy option to update quantity of those items or deleting them. You can also see the price for each item, the total price and whether or not you have reached the free shipping limit ($40). From the Shopping Bag view you can either go back to shopping or go further to the secure Checkout. 
 
+#### Checkout Page
+
+![Checkout Page 1](/static/site_images/checkout-1-page.png)      ![Checkout Page 2](/static/site_images/checkout-2-page.png)
+
 
 **General Features**
 
