@@ -301,7 +301,7 @@ The home page aims to be eye catching and explanatory at the same time. A sophis
 
 ![About Page](/static/site_images/about-page.png)
 
-
+On the About page the users can get more information about BloomRoom and why you should choose BloomRoom as your plant supplier. There is also contact information so that the user can easily can get in touch with BloomRoom. On smaller screens the image is hidden for better UX. 
 
 **Future Features**
 
