@@ -356,6 +356,7 @@ After the user has completed the purchase, the user is directed to the Order Con
 
 ![Newsletter Subscription](/static/site_images/newsletter.png)
 
+Any site user can easily sign up for Newsletter subscription to take part of news, offers etc. By entering their email they will receive newsletters. 
 
 **General Features**
 
