@@ -305,7 +305,9 @@ On the About page the users can get more information about BloomRoom and why you
 
 #### Products
 
+![Products Page](/static/site_images/plants-page.png)
 
+Clicking on the link for All Products in the nav-bar or the Shop Here link on the Home page will take you to the product view. Here you get an overview of all products, image, name and price. On this site you can choose to view a certain category by clicking on one of the category buttons on the top of the page. You can also sort the products by price, ascending and descending or by name. 
 
 **Future Features**
 
