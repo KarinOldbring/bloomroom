@@ -18,29 +18,59 @@
 
 ***
 
-*(#Testing-user-stories)
+## **Testing-user-stories**
+
+* As a site user I can search the site to easily find what I am looking for.  
+
+* As a site user I can view the products of the site so that I can see what the store offers.
+
+* As a site user I can view a specific product so that I will get more detailed information. 
+
+* As a site user I can categorize the products so that I can filter the results.
+
+* As a site user I can receive real time notifications to improve my user experience.
+
+* As a site user I can create an account so that I can shop from the store.
+
+* As a site user I can view my shopping bag so that I have complete overview of my purchase.
+
+* As a site user I can view and update my account, so that I can manage my account.
+
+* As a site user I can sign up for a newsletter so that I can take part of news and offers.
+
+* As a site user I can receive emails regarding my purchases.
+
+* As a site owner I can log in to view the current products and their specifics on the site.
+
+* As a site owner I can add new products to the site.
+
+* As a site owner I can update products on the site.
+
+* As a site owner I can delete products on the site.
+
+* As a site owner I can send confirmation and informational emails to my customers.
 
 [Back to content](#contents)
 
-*(#Manual-testing)
+## **Manual-testing
 
 [Back to content](#contents)
 
-*(#Automated-testing)
+## **Automated-testing**
 
 [Back to content](#contents)
 
-**(#Code-validation)
+#### **Code-validation**
 
 The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the HTML and CSS code used. The [PEP8 Python Validator](http://pep8online.com/) was used to validate the Python code. 
 
 ***Results:
 
-*HTML Validation
+* HTML Validation
 
-*CSS Validation
+* CSS Validation
 
-*Python Validation
+* Python Validation
 
 Files tested:
 *Bag*
@@ -83,8 +113,8 @@ Files tested:
 
 *env.py*
 
-**(#Browser-validation)
+#### **Browser-validation**
 
-*(#User-testing)
+## **User-testing**
 
 [Back to content](#contents)
