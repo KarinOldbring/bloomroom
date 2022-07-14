@@ -325,6 +325,8 @@ As a superuser you can easily navigate to manage specific products by clicking t
 
 ![User Profile 1](/static/site_images/userprofile-page-1.png)     ![User Profile 2](/static/site_images/userprofile-page-2.png)
 
+Choosing My Profile under the My Account link takes the user to their Profile. This action requires that the user is logged in, if not they will be asked to login or register. From here the user can update all information and also get an overview of previous purchases. If the order number is clicked the user will be redirected to the specifications of that particular purchase. 
+
 
 **Future Features**
 
