@@ -33,7 +33,6 @@
 
 * **[Technology Used](#Technology-Used)**
     * [Main Languages Used](#Main-Languages-Used)
-    * [Additional Languages Used](#Additional-Languages-Used)
     * [Frameworks, Libraries and Programs Used](#Frameworks-Libraries-and_Programs-Used)
     
 
@@ -356,7 +355,7 @@ After the user has completed the purchase, the user is directed to the Order Con
 
 ![Newsletter Subscription](/static/site_images/newsletter.png)
 
-Any site user can easily sign up for Newsletter subscription to take part of news, offers etc. By entering their email they will receive newsletters. This service is handled by the ![MailChimp Service](https://mailchimp.com).
+Any site user can easily sign up for Newsletter subscription to take part of news, offers etc. By entering their email they will receive newsletters. This service is handled by the [MailChimp Service](https://mailchimp.com).
 
 **General Features**
 
@@ -425,9 +424,30 @@ After this the site was rendering correctly apart from all the product images. T
 - Python
 - Django
 
-**Additional Languages Used**
-
 **Frameworks, Libraries and Programs Used**
+
+- [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/ "Link to Bootstrap page")
+     - Bootstrap was used to implement the responsiveness of the site, using bootstrap classes, but also other styling such as buttons etc.
+- [AWS Storage](https://aws.amazon.com/ "Link to AWS")
+     - AWS Bucket Storage was used to store static and media files. 
+- [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/ "Link to the Crispy Forms documentation")
+    - Crispy Forms was used to style the add and edit recipe forms, allowing more than one field to occupy a line on the form.
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+    - Google fonts were used to import the fonts "Playfair Display" and "Lato" into the style.css file. These fonts were used throughout the project.
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+     - Font Awesome was used on all pages throughout the website to import icons (e.g. social media icons) for UX purposes.
+- [Git](https://git-scm.com/ "Link to Git homepage")
+     - Git was used for version control by utilizing the GitPod terminal to commit to Git and push to GitHub.
+- [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+     - Am I Responsive was used to see responsive design throughout the process and to generate mockup imagery to be used.
+- [Balsamiq Wireframes](https://balsamiq.com/learn/articles/what-are-wireframes/ "Link to Balsamiq Wireframes")
+     - Balsamiq Wireframes was used to create the wireframes for the project.  
+- [tinypng.com](https://tinypng.com/ "Link to tinypng")
+     - Tinypng was used to compress images. 
+- [Canva.com](https://www.canva.com/ "Link to Canva")
+     - Canva was used to make the BloomRoom Logo
 
 [Back to content](#contents)
 
