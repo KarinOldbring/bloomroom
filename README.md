@@ -277,13 +277,17 @@ When the customer is done shopping they can click on the checkout to complete th
 
 **Existing Features**
 
-## Header
+### Header
 
-### Navigation menu
+#### Navigation menu
 
-![Navbar Fullsize screen](/static/site_images/navbar-1.png) ![Navbar Mobile](/static/site_images/navbar-2.png)
+![Navbar Desktop](/static/site_images/navbar-1.png)     ![Navbar Mobile](/static/site_images/navbar-2.png)
 
 The wide nav-bar is with links and icons is displayed on desktop screens. In the left corner is the BloomRoom logo, which when clicked takes you to the home page. Following the logo are several links to different parts of the site. First there is a link for "Home" whih has the same effect as clicking the logo but I still chose to add it for better UX experience and easier navigation. Next comes a link to the About section (more on that furhter down). After that there are links for the products. A dropdown link where you can either choose to view all products or select a specific category. The last link on the left hand side of the nav-bar is also a dropdown where users can manage their accounts. Depending on whether they are logged in or not, different options are displayed. The right hand side of the nav-bar contain the shopping bag to start with. A widely used icon symbolizing a shopping bag represents the bag under underneath it is the current shopping amount of the bag. Last but not least there is a search field. From here users can easily access items on the site by searching. The nav-bar toggles on smaller, mobile screens. The logo is still in the top left corner, and clicking it will direct you to the home page. The Home, About, Products and My Account links are toggled in to a burger icon, where you easily can access the different pages of the site. Beneath those are the shoppingbag icon and the searchfield. The nav-bar is always visible, no matter which device the user has. 
+
+#### Footer
+
+![Footer Desktop](/static/site_images/footer-1.png)     ![Footer Mobile](/static/site_images/footer-2.png)
 
 **Future Features**
 
