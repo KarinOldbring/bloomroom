@@ -270,6 +270,68 @@
 * Result: When viewing All Products or a selected category, the Sort By function operates as intented. If the user is watching products rendering through a search result and then chooses to use the Sort By function, all products on the page are then displayed. 
 * Verdict: Code functions as intended on all views accept for search result. This is mentioned in the Bugs section in the Readme. 
 
+#### Product Detail
+
+* Expected Outcome: When clicking either a product image or the name of a product you should be redirected to the product detail page. Here you should see all specifics about the product and also have the ablitity to add product to Shopping Bag. 
+* Test: Click the different products to check if I am being redirected and all information is displayed. 
+* Result: When clicking the product the user can see that items specifications and is given the option to add the item to the Shopping Bag. 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
 #### 
 
 * Expected Outcome: 
