@@ -47,6 +47,7 @@
     * Any logged in registered user can view their Profile. By clicking My Account and choosing My Profile in the nav-bar you are directed to the Profile view. Here the user is greeted using their username ("Welcome Username") and their Profile information is presented. From here the user can update and or delete information that has previously been saved. A note at the bottom of the page instructs the user how to go about if they wish to entirely delete their profile. In the My Profile view the user also gets an overview of previous purchases. By clicking the Order number the user is directed to the purchase specification. 
 
 10. As a site user I can sign up for a newsletter so that I can take part of news and offers.
+    * Any site user, logged in or not, can sign up for a Newsletter subscription. By submitting their email address in the bottom right corner in the footer they are automatically signed up. After submitting an email address an alert shows up thanking the user for subscribing. 
 
 11. As a site user I can receive emails regarding my purchases.
 
