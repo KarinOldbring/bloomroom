@@ -151,7 +151,113 @@
 * Result: Every time I clicked the Smaller Plants link I was redirected to the Smaller Plants overview. 
 * Verdict: Code functions as intended. 
 
-#####
+##### My Account Link
+
+* Expected Outcome: When clicking the My Account link a dropdown menu should appear, displaying different options, depending on wether you are logged in or not.
+* Test: I clicked the My Account link both when logged in and when not logged in. 
+* Result: When clicking the My Account link when logged in the options My Profile and Log out appeared. When clicking the link when not logged in the options Register and Log In appeared. 
+* Verdict: Code functions as intended. 
+
+
+##### My Account Link - Site Owner
+
+* Expected Outcome: When clicking the My Account link logged in as site owner an option of Product Management should appear, as well as My Profile and Log Out. 
+* Test: Click the My Account link when logged in as superuser. 
+* Result: When clicking the My Account link as a logged in superuser/site owner the option Product Management appears, as well as My Profile and Log Out. 
+* Verdict: Code functions as intended.
+
+#### Login
+
+* Expected Outcome: When choosing Login from the My Account menu, you should be redirected to the Sign In page. 
+* Test: Choose Login from the My account menu. 
+* Result: When choosing Login from the My Account menu I was redirected to the Sign In page. 
+* Verdict: Code functions as intended. 
+
+#### Register
+
+* Expected Outcome: When choosing Register from the My Account menu, you should be redirected to the Sign Up page. 
+* Test: Choose Register from My Account menu. 
+* Result: When choosing Register from the My Account menu I was redirected to the Sign Up Page. 
+* Verdict: Code functions as intended. 
+
+#### My Profile 
+
+* Expected Outcome: When choosing My Profile from the My Account link, the user should be redirected to the My Profiles page. 
+* Test: Clicked the My Profile option in the My Account link. 
+* Result: When choosing My Profile I was redirected to the My Profile page. 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended. 
+
+#### 
 
 * Expected Outcome: 
 * Test: 
@@ -159,12 +265,7 @@
 * Verdict: Code functions as intended. 
 
 
-#####
 
-* Expected Outcome: 
-* Test: 
-* Result: 
-* Verdict: Code functions as intended.
 
 [Back to content](#contents)
 
