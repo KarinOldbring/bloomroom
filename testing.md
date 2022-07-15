@@ -116,14 +116,47 @@
 * Verdict: Code functions as intended. 
 
 
+##### Plants Link - Green Plants
+
+* Expected Outcome: When choosing Green Plants from the Plants dropdown menu, you should be redirected to the Green Plants overview. 
+* Test: I tried clicking the Green Plants link from all different pages on the site, both as logged in user and not.
+* Result: Every time I clicked the Green Plants link I was redirected to the Green Plants overview. 
+* Verdict: Code functions as intended.  
+
+##### Plants Link - Blooming Plants
+
+* Expected Outcome: When choosing Blooming Plants from the Plants dropdown menu, you should be redirected to the Blooming Plants overview. 
+* Test: I tried clicking the Blooming Plants link from all different pages on the site, both as logged in user and not.
+* Result: Every time I clicked the Blooming Plants link I was redirected to the Blooming Plants overview. 
+* Verdict: Code functions as intended. 
+
+##### Plants Link - Pet Friendly Plants
+
+* Expected Outcome: When choosing Pet Friendly Plants from the Plants dropdown menu, you should be redirected to the Pet Friendly Plants overview. 
+* Test: I tried clicking the Pet Friendly Plants link from all different pages on the site, both as logged in user and not.
+* Result: Every time I clicked the Pet Friendly Plants link I was redirected to the Pet Friendly Plants overview. 
+* Verdict: Code functions as intended. 
+
+##### Plants Link - Larger Plants
+
+* Expected Outcome: When choosing Larger Plants from the Plants dropdown menu, you should be redirected to the All Larger overview. 
+* Test: I tried clicking the Larger Plants link from all different pages on the site, both as logged in user and not.
+* Result: Every time I clicked the Larger Plants link I was redirected to the Larger Plants overview. 
+* Verdict: Code functions as intended. 
+
+##### Plants Link - Smaller Plants
+
+* Expected Outcome: When choosing Smaller Plants from the Plants dropdown menu, you should be redirected to the Smaller Plants overview. 
+* Test: I tried clicking the Smaller Plants link from all different pages on the site, both as logged in user and not.
+* Result: Every time I clicked the Smaller Plants link I was redirected to the Smaller Plants overview. 
+* Verdict: Code functions as intended. 
+
 #####
 
 * Expected Outcome: 
 * Test: 
 * Result: 
 * Verdict: Code functions as intended. 
-
-
 
 
 #####
