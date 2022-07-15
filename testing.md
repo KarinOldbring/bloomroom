@@ -272,16 +272,18 @@
 
 #### Product Detail
 
-* Expected Outcome: When clicking either a product image or the name of a product you should be redirected to the product detail page. Here you should see all specifics about the product and also have the ablitity to add product to Shopping Bag. 
-* Test: Click the different products to check if I am being redirected and all information is displayed. 
-* Result: When clicking the product the user can see that items specifications and is given the option to add the item to the Shopping Bag. 
+* Expected Outcome: When clicking either a product image or the name of a product you should be redirected to the product detail page. Here you should see all specifics about the product and also have the ablitity to add product to Shopping Bag and if so choose quantity. There should also be a "Keep Shopping" button that takes the user back to the All Products page. 
+* Test: Click the different products to check if I am being redirected and all information is displayed including Add to Bag option. 
+* Result: When clicking the product the user can see that items specifications and is given the option to add the item to the Shopping Bag including choosing quantity.  The "Keep Shopping button is also there and when clicked the user is redirected to the All Products page. 
 * Verdict: Code functions as intended. 
 
-#### 
+### My Account
 
-* Expected Outcome: 
-* Test: 
-* Result: 
+#### Register
+
+* Expected Outcome: A site user that is not logged in to the site should be presented with the option of signing up for an account. To sign up for an account the user needs to enter a unique email address and username, as well as a password twice. If the email address or the username already has been used to sign up for an account the user should be encouraged to choose a new one. 
+* Test: Try signing up for a new account using both new and already used emails and usernames or trying to leave out required information. 
+* Result: When trying to sign up for an account using already used email address and/or username I am enouraged to choose a different one. When choosing a entering a new email address and username the sign up functions. Leaving inout fields blank also throws an error. 
 * Verdict: Code functions as intended. 
 #### 
 
