@@ -53,9 +53,10 @@
     * 
 
 12. As a site owner I can log in to view the current products and their specifics on the site.
-    * The site owner can easily access the product specifications on the site. When logged in the site owner has the opportunity to edit and delete items on the site. 
+    * The site owner can easily access the product specifications on the site. When logged in the site owner has the opportunity to edit and delete items on the site by clicking the Edit or Delete buttons beneath each product. 
 
 13. As a site owner I can add new products to the site.
+    * The site owner can by clicking My Account in the nav-bar and choose Product Management add new items to the site. From there the site user can fill out all fields necessary and upload an image. By clicking "Add Product" the item is added to the product list. 
 
 14. As a site owner I can update products on the site.
 
