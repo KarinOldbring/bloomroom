@@ -208,6 +208,23 @@
 * Result: When searching for the word "pet" for example, all products from the "Pet Friendly" category are presented. It is also stated that there are five items matching the search criteria. If I searched for a word in Swedish, for example Krukväxt, the Swedish word for household plant, I got a message stating that there are no products matching. 
 * Verdict: Code functions as intended. Although, as mentioned in further length in the Bugs section in the Readme, the search functionality operates a bit too well since it also includes hits where part of the word entered is present. For example if you search "car" you will get a match where the word "care" is in the description. 
 
+### Footer
+
+#### Footer
+
+* Expected Outcome: The footer should be visible on all pages of the site and always be placed on the bottom of the page. 
+* Test: Visit every page of the site to check if footer is visible. 
+* Result: The footer is visible on every page of the site. 
+* Verdict: Code functions as intented.
+
+#### Footer Social Media Links
+
+* Expected Outcome: The icons in the footer linking to the social media accounts are supposed to be opened up in new tabs when clicked. 
+* Test: Click the social media icons in footer. 
+* Result: When clicking the icons the social media is opened up in a new tab. 
+* Verdict: Code functions as intented.
+
+
 #### 
 
 * Expected Outcome: 
