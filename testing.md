@@ -50,8 +50,10 @@
     * Any site user, logged in or not, can sign up for a Newsletter subscription. By submitting their email address in the bottom right corner in the footer they are automatically signed up. After submitting an email address an alert shows up thanking the user for subscribing. 
 
 11. As a site user I can receive emails regarding my purchases.
+    * 
 
 12. As a site owner I can log in to view the current products and their specifics on the site.
+    * The site owner can easily access the product specifications on the site. When logged in the site owner has the opportunity to edit and delete items on the site. 
 
 13. As a site owner I can add new products to the site.
 
