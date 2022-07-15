@@ -198,15 +198,15 @@
 
 * Expected Outcome: When clicking the Shopping Bag icon the user should be redirected to the Shopping Bag. If there are items in the bag these should be displayed, if not there should be a message stating that it is empty and a button to take the user back to the All Products view. 
 * Test: Clicking the Shopping Bag, both when items are in the bag and not. 
-* Result: Clicking the Shopping Bag after items have been selected takes you to the Shopping Bag where the items and information regarding price etc are displayed. Clicking the Shopping Bag when no items have been selected takes you to the Shopping Bag and a message stating that the bag is empty. 
+* Result: Clicking the Shopping Bag after items have been selected takes you to the Shopping Bag where the items and information regarding price etc are displayed. Clicking the Shopping Bag when no items have been selected takes you to the Shopping Bag and a message stating that the bag is empty. The button taking you back to the shopping site is also presented. 
 * Verdict: Code functions as intended. 
 
-#### 
+#### Search Field
 
-* Expected Outcome: 
-* Test: 
-* Result: 
-* Verdict: Code functions as intended. 
+* Expected Outcome: When entering a search criteria in the Search Field the items matching should be displayed. The number of matches should also be presented. If no items match the search criteria it should be stated that there are no products found when searching for that specific criteria. 
+* Test: Entered different search criteria to test search functionality. 
+* Result: When searching for the word "pet" for example, all products from the "Pet Friendly" category are presented. It is also stated that there are five items matching the search criteria. If I searched for a word in Swedish, for example Krukväxt, the Swedish word for household plant, I got a message stating that there are no products matching. 
+* Verdict: Code functions as intended. Although, as mentioned in further length in the Bugs section in the Readme, the search functionality operates a bit too well since it also includes hits where part of the word entered is present. For example if you search "car" you will get a match where the word "care" is in the description. 
 
 #### 
 
