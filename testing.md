@@ -101,22 +101,19 @@
 * Result: Every time I clicked the About link I was redirected to the About page.
 * Verdict: Code functions as intented.
 
-##### 
+##### Plants Link
 
-* Expected Outcome: 
-* Test: 
-* Result: 
-* Verdict: 
+* Expected Outcome: When clicking the Plants link a dropdown menu should appear, displaying the different categories. 
+* Test: I tried clicking the Plants link from all different pages on the site, both as logged in user and not.
+* Result: Every time I clicked the Plants link the dropdown menu apperaed. 
+* Verdict: Code functions as intended. 
 
-#####
+##### Plants Link - All Plants
 
-* Expected Outcome: 
-* Test: 
-* Result: 
-* Verdict: 
-
-
-
+* Expected Outcome: When choosing All Plants from the Plants dropdown menu, you should be redirected to the All Plants overview. 
+* Test: I tried clicking the All Plants link from all different pages on the site, both as logged in user and not.
+* Result: Every time I clicked the All Plants link I was redirected to the All Plants overview. 
+* Verdict: Code functions as intended. 
 
 
 #####
@@ -124,7 +121,17 @@
 * Expected Outcome: 
 * Test: 
 * Result: 
-* Verdict: 
+* Verdict: Code functions as intended. 
+
+
+
+
+#####
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: Code functions as intended.
 
 [Back to content](#contents)
 
