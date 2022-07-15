@@ -20,9 +20,10 @@
 
 ## **Testing-user-stories**
 
-* As a site user I can search the site to easily find what I am looking for.  
-
-* As a site user I can view the products of the site so that I can see what the store offers.
+1. As a site user I can search the site to easily find what I am looking for.
+    * Any site user, logged in or not, can user the Search functionality in the top right corner of the site. When seraching for for example a categoriy all products matching that search criteria are displayed. The site also shows how many matching items are found for that specific search criteria and has a button to easily navigate back to All plants. 
+2. As a site user I can view the products of the site so that I can see what the store offers.
+    * Any site user, logged in or not, can view all products on the site. The user can either click on the Plants link in the nav-bar, or click the "Shop Here" link on the middle of the home page. 
 
 * As a site user I can view a specific product so that I will get more detailed information. 
 
