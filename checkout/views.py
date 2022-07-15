@@ -52,9 +52,8 @@ def checkout(request):
             'street_address1': request.POST['street_address1'],
             'street_address2': request.POST['street_address2'],
             'county': request.POST['county'],
-            'additional_shipping_info': (
-                request.POST['additional_shipping_info'],
-            )
+            'additional_shipping_info': request
+            .POST['additional_shipping_info'],
         }
         order_form = OrderForm(form_data)
         if order_form.is_valid():
@@ -140,6 +139,10 @@ def checkout_success(request, order_number):
     """
     Handle successful checkouts
     """
+    if not request.user.is_authenticated:
+        messages.error(request, 'Sorry, you are unauthorized for that action')
+        return redirect(reverse('home'))
+    
     save_info = request.session.get('save_info')
     order = get_object_or_404(Order, order_number=order_number)
 
