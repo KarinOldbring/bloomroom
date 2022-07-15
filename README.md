@@ -486,6 +486,9 @@ Testing was done manually throughout the development process. The full rundown o
 * **Sort Functionality**
     If a user has used the search criteria to view products and then wants to use the "Sort By" button, all products on the page will be displayed and sorted instead of just the ones that matched your search criteria. If the user chooses to view a specific category, and then wishes to sort the results, the "Sort By" functionality works as intended. 
 
+* **Search Functionality**
+    The search functionlity operates a bit to well and could do with some refinement. If you search for example "Car" you get a number of hits since there are words that contain the letters "car", for example if the word "Care" is in the product description. 
+
 
 
 [Back to content](#contents)
