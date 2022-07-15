@@ -41,6 +41,7 @@
     * Any site user, logged in or not, can make purchases on the site. If the user is logged in and has saved their shipping information they only need to enter Full Name and payment information. If the uer is not a registered user they will have to fill out name, shipping information and payment information. The user can then proceed to complete the order and purchase is made. 
 
 8. As a site user I can view my shopping bag so that I have complete overview of my purchase.
+    * Any site user, logged in or not, can by clicking the shopping bag icon in the nav-bar get a full overview of their Shopping bag. If the Shopping bag is empty, that is stated and clicking the "Keep Shopping" back easily directs you back to the All products page. If there are items in the bag, the user will see the image, name, price, quantity and total cost and also has the option to change quantity and/or delete items. From here the user can either keep shopping or proceed to secure checkout. 
 
 9.  As a site user I can view and update my account, so that I can manage my account.
 
