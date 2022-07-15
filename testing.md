@@ -10,7 +10,7 @@
 ## Contents
 * [Test User Stories](#Test-user-stories)
 * [Manual Testing](#Manual-testing)
-* [Automated Testing](#Automated-testing)
+* [Validation Testing](#Validation-testing)
     * [Code Validation](#Code-validation)
     * [Browser Validation](#Browser-validation)
 * [User Testing](#User-testing)
@@ -75,7 +75,7 @@
 
 #### Navigation Bar (Nav-Bar)
 
-* Expected Outcome: Expected Outcome: The navigation bar should be visible on every page of the site. If page is rendered on smaller screens the navigation bar should toggle for better user experience. 
+* Expected Outcome: The navigation bar should be visible on every page of the site. If page is rendered on smaller screens the navigation bar should toggle for better user experience. 
 * Test: Visit every page of the site to check if navigation bar is visible. View the navigation bar on different size screens to check responsiveness of navigation bar and toggle function. 
 * Result: The navigation bar is visible on every page of the site. When viewed on smaller screens the links are toggled for better user experience. 
 * Verdict: Code functions as intented.
@@ -320,7 +320,7 @@
 
 [Back to content](#contents)
 
-## **Automated Testing**
+## **Validation Testing**
 
 [Back to content](#contents)
 
