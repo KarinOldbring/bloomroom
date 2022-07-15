@@ -238,11 +238,13 @@
 * Result: When entering an email address the user is notified that the action was successfull and the email address is added to the site owners Mailchimp account. If entering an invalid email address, for example without an @, you are asked to enter a valid email address. 
 * Verdict: Code functions as intended. 
 
-#### 
+### Home Page
 
-* Expected Outcome: 
-* Test: 
-* Result: 
+#### Home Page Welcome text 
+
+* Expected Outcome: When viewing the Home page there is a welcome text with a link named "Shop Here" that should link to the All products view. 
+* Test: Click the "Shop Here" link to see if I get redirected to the All Products view. 
+* Result: When clicking the "Shop Here" link I am being redirected to the All Products view. 
 * Verdict: Code functions as intended. 
 
 #### 
