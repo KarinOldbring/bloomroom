@@ -35,6 +35,7 @@
     * When I site user interacts with the page, adds an item to the shopping bag, edits their user profile or makes in invalid input in a form for example, a message is displayed to guide the user. There are success, alert, error and warning messages depending on the action taken. 
 
 6. As a site user I can create a user account. 
+    * Any site user can go to My Account in the nav-bar and Register an account. The registration requires a unique email-address and a unique username. If either the email-address or the username already has been used to register an account the site user will be notified and asked to choose another. 
 
 7. As a site user I can make purchases on the site. 
 
