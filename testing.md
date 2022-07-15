@@ -263,12 +263,12 @@
 * Result: All products are displayed with the right information showing. When clicking the individual category buttons you are redirected to that specific category. 
 * Verdict: Code functions as intended. 
 
-#### 
+#### Sort By - Function
 
-* Expected Outcome: 
-* Test: 
-* Result: 
-* Verdict: Code functions as intended. 
+* Expected Outcome: When visiting either the All Products page or a specific category the user can choose to sort the products either by ascending price, descending price or name. 
+* Test: Visit the All Products page and each category to try the Sort By function. 
+* Result: When viewing All Products or a selected category, the Sort By function operates as intented. If the user is watching products rendering through a search result and then chooses to use the Sort By function, all products on the page are then displayed. 
+* Verdict: Code functions as intended on all views accept for search result. This is mentioned in the Bugs section in the Readme. 
 
 #### 
 
