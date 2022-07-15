@@ -62,6 +62,7 @@
     * The site owner can by clicking the Edit button under a specific product access the "Edit Product" view. The site owner will recognize this view from the Add Product view, only here the previous information is there and can be edited. The site owner can update all text and also change image. 
 
 15. As a site owner I can delete products on the site.
+    * When the site owner is logged in there is a "Delete" button presented underneath each product. By clicking it the item is automatically removed from the products list. 
 
 16. As a site owner I can send confirmation and informational emails to my customers.
 
