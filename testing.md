@@ -231,11 +231,11 @@
 * Result: When viewing the site on smaller deivces the mid section is hidden. When dlicking the logo you are redirected to the home page. If you are logged in to your own email on your device when clicking the email address a new email opens up with BloomRoom as the receiver. 
 * Verdict: Code functions as intended. 
 
-#### 
+#### Newsletter Subscription
 
-* Expected Outcome: 
-* Test: 
-* Result: 
+* Expected Outcome: When entering an email address the user should be notified that the action was successfull and the email address should be visible in the site owner Mailchimp account. 
+* Test: Enter an email address to see if I get a verification that the action was successfull and tried entering an invalid email address. 
+* Result: When entering an email address the user is notified that the action was successfull and the email address is added to the site owners Mailchimp account. If entering an invalid email address, for example without an @, you are asked to enter a valid email address. 
 * Verdict: Code functions as intended. 
 
 #### 
