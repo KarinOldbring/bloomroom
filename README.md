@@ -393,6 +393,10 @@ I used the following words as Meta keywords to optimize SEO:
 - Plant decoration
 - Greenery
 
+*Meta Description Tag:*
+
+ - "BloomRoom, A high-quality online plant store that offers fast home delivery all over Europe"
+
 All images displayed on the page have descriptive alternative text for better search engine optimzation. 
 
 [Back to content](#contents)
