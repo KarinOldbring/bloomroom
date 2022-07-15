@@ -23,33 +23,37 @@
 1. As a site user I can search the site to easily find what I am looking for.
     * Any site user, logged in or not, can user the Search functionality in the top right corner of the site. When seraching for for example a categoriy all products matching that search criteria are displayed. The site also shows how many matching items are found for that specific search criteria and has a button to easily navigate back to All plants. 
 2. As a site user I can view the products of the site so that I can see what the store offers.
-    * Any site user, logged in or not, can view all products on the site. The user can either click on the Plants link in the nav-bar, or click the "Shop Here" link on the middle of the home page. 
+    * Any site user, logged in or not, can view all products on the site. The user can either click on the Plants link in the nav-bar, or click the "Shop Here" link on the middle of the home page. This will direct the user to get a full overview of the products. 
 
-* As a site user I can view a specific product so that I will get more detailed information. 
+3. As a site user I can view a specific product so that I will get more detailed information. 
+    * Any site user, logged in or not, can click either the image or the name of a certain product to get redirected to a detailed product view. From here the user gets all information about that specific item, such as name, price, description, category, season and the product image. 
 
-* As a site user I can categorize the products so that I can filter the results.
+4. As a site user I can categorize the products so that I can filter the results.
+    * Any site user, logged in or not, can categorize the products to filter the product view. This can be done either directly from the dropdown link in the nav-bar where all the categories are displayed or from the All Products view, where there are buttons linking to all the different categories. 
 
-* As a site user I can receive real time notifications to improve my user experience.
+5. As a site user I can receive real time notifications to improve my user experience.
 
-* As a site user I can create an account so that I can shop from the store.
+6. As a site user I can create a user account. 
 
-* As a site user I can view my shopping bag so that I have complete overview of my purchase.
+7. As a site user I can make purchases on the site. 
 
-* As a site user I can view and update my account, so that I can manage my account.
+8. As a site user I can view my shopping bag so that I have complete overview of my purchase.
 
-* As a site user I can sign up for a newsletter so that I can take part of news and offers.
+9.  As a site user I can view and update my account, so that I can manage my account.
 
-* As a site user I can receive emails regarding my purchases.
+10. As a site user I can sign up for a newsletter so that I can take part of news and offers.
 
-* As a site owner I can log in to view the current products and their specifics on the site.
+11. As a site user I can receive emails regarding my purchases.
 
-* As a site owner I can add new products to the site.
+12. As a site owner I can log in to view the current products and their specifics on the site.
 
-* As a site owner I can update products on the site.
+13. As a site owner I can add new products to the site.
 
-* As a site owner I can delete products on the site.
+14. As a site owner I can update products on the site.
 
-* As a site owner I can send confirmation and informational emails to my customers.
+15. As a site owner I can delete products on the site.
+
+16. As a site owner I can send confirmation and informational emails to my customers.
 
 [Back to content](#contents)
 

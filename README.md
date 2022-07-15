@@ -79,23 +79,24 @@ The app is designed as an e-commerce application that encourages users to make p
 *Agile methodology was used to create user stories.*
 *GitHub’s Kanban feature was used to track the progress of user stories.*
 
-| User Story:                                                                                 | User story satisfied through: |
-|---------------------------------------------------------------------------------------------|-------------------------------|
-| As a site user I can search the site to easily find what I am looking for.                  | Search field                  |
-| As a site user I can view the products of the site so that I can see what the store offers. | Products App                  |
-| As a site user I can view a specific product so that I will get more detailed information.  | Products App                  |
-| As a site user I can categorize the products so that I can filter the results.              | Products App                  |
-| As a site user I can receive real time notifications to improve my user experience.         | Django messages               |
-| As a site user I can create an account so that I can shop from the store.                   | Profiles App                  |
-| As a site user I can view my shopping bag so that I have complete overview of my purchase.  | Bag App                       |
-| As a site user I can view and update my account, so that I can manage my account.           | Profiles App                  |
-| As a site user I can sign up for a newsletter so that I can take part of news and offers.   | Newsletter signup             |
-| As a site user I can receive emails regarding my purchases.                                 | Checkout App                  |
-| As a site owner I can log in to view the current products and their specifics on the site.  | Products App                  |
-| As a site owner I can add new products to the site.                                         | Products App                  |
-| As a site owner I can update products on the site.                                          | Products App                  |
-| As a site owner I can delete products on the site.                                          | Products App                  |
-| As a site owner I can send confirmation and informational emails to my customers.           | Checkout App                  |
+| User Story:                                                                                   | User story satisfied through: |
+|-----------------------------------------------------------------------------------------------|-------------------------------|
+| 1. As a site user I can search the site to easily find what I am looking for.                 | Search field                  |
+| 2. As a site user I can view the products of the site so that I can see what the store offers.| Products App                  |
+| 3. As a site user I can view a specific product so that I will get more detailed information. | Products App                  |
+| 4. As a site user I can categorize the products so that I can filter the results.             | Products App                  |
+| 5. As a site user I can receive real time notifications to improve my user experience.        | Django messages               |
+| 6. As a site user I can create a user account.                                                | Profiles App                  |
+| 7. As a site user I can make purchases on the site.                                           | Bag App                       |
+| 8. As a site user I can view my shopping bag so that I have complete overview of my purchase. | Bag App                       |
+| 9. As a site user I can view and update my account, so that I can manage my account.          | Profiles App                  |
+| 10. As a site user I can sign up for a newsletter so that I can take part of news and offers. | Newsletter signup             |
+| 11. As a site user I can receive emails regarding my purchases.                               | Checkout App                  |
+| 12. As a site owner I can log in to view the current products and their specifics on the site.| Products App                  |
+| 13. As a site owner I can add new products to the site.                                       | Products App                  |
+| 14. As a site owner I can update products on the site.                                        | Products App                  |
+| 15. As a site owner I can delete products on the site.                                        | Products App                  |
+| 16. As a site owner I can send confirmation and informational emails to my customers.         | Checkout App                  |
 
 [Back to content](#contents)
 
