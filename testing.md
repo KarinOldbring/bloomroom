@@ -293,11 +293,20 @@
 * Result: When entering incorrect login credentials and/or password an error is thrown asking for the right input. If the correct information is given the signing in proceeds as expected. The reset link is being sent out as expected and when following the steps a new password can be set. As an additional service to the user the Username is stated in the reset password email, in case the user forgot it. 
 * Verdict: Code functions as intended. 
 
-#### 
+#### Log Out
 
-* Expected Outcome: 
-* Test: 
-* Result: 
+* Expected Outcome: A logged in user should be able to log out from their account and before the logout is processed the user should be asked to confirm that they wish to log out. 
+* Test: When logged in try to log out. 
+* Result: When clicking log out the user is being redirected to a Log Out page where the user can either confirm that they wish to log out or be redirected back to the Home page. 
+* Verdict: Code functions as intended. 
+
+#### Shopping Bag & Checkout
+
+#### Shopping Bag 
+
+* Expected Outcome: The shopping bag is for the user to see all items in the bag. The bag should show product info, bag total, delivery cost and grand total. Apart from that the user should be given the opportunity to change quantity of selected items or remove them entirely. From here the user should be given the option to either proceed to Secure Checkout or Keep Shopping. 
+* Test: By adding items to the bag, I tried changing quantity and deleting the item entirely. 
+* Result: I was able to adjust quantity and delete items completely. When doing so the total cost was adjusted. From here I could choose to Keep Shopping or go to Secure Checkout. 
 * Verdict: Code functions as intended. 
 
 #### 
@@ -306,49 +315,6 @@
 * Test: 
 * Result: 
 * Verdict: Code functions as intended. 
-
-#### 
-
-* Expected Outcome: 
-* Test: 
-* Result: 
-* Verdict: Code functions as intended. 
-
-#### 
-
-* Expected Outcome: 
-* Test: 
-* Result: 
-* Verdict: Code functions as intended. 
-
-#### 
-
-* Expected Outcome: 
-* Test: 
-* Result: 
-* Verdict: Code functions as intended. 
-
-#### 
-
-* Expected Outcome: 
-* Test: 
-* Result: 
-* Verdict: Code functions as intended. 
-
-#### 
-
-* Expected Outcome: 
-* Test: 
-* Result: 
-* Verdict: Code functions as intended. 
-
-#### 
-
-* Expected Outcome: 
-* Test: 
-* Result: 
-* Verdict: Code functions as intended. 
-
 
 
 
