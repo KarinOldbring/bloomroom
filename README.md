@@ -30,6 +30,7 @@
 * **[Testing](#Testing)**
 
 * **[Bugs](#Bugs)**
+    * [Known Bugs](#Known-Bugs)
 
 * **[Technology Used](#Technology-Used)**
     * [Main Languages Used](#Main-Languages-Used)
@@ -373,7 +374,7 @@ Whenever the user interacts with the page, ie logs in, adds a product to the sho
 
 * A future version of BloomRoom could feature an option to comment and or rate products on the site. It could be a good way to involve the customers more. 
 * Another feature that could quite easily be managed by the site owner is special offers or even gifts for customers on their birthdays. I included the option to add your date of birth in your Profile, which would enable the site owner to use that information. 
-* As of now if a user wishes to delete their user profile, they are advised to send an email. This is not optimal and a future version would definitely include this option for the user. 
+* As of now if a user wishes to delete their user profile, they are advised to send an email. This is not optimal and a future version would include the option for the user to perform that task themselves. 
 * Other products related to plants and flowers such as, flower pots, fertilizer etc could be added to the product list. 
 
 [Back to content](#contents)
@@ -419,7 +420,7 @@ All images displayed on the page have descriptive alternative text for better se
 
 ### **Target Audience**
 
-The site owner imagines their typical customer to be a person of the age of somewhere between 20-50 years. The typical customer probably lives in an urban environment and does not have easy access to regular plant retailers. They are used to online shopping an appreciate the convenience of conducting their shopping online. This type of audience make Social Media platforms an extremely important place to advertise and be visible. 
+The site owner imagines their typical customer to be a person of the age of somewhere between 20-50 years. The typical customer probably lives in an urban environment and does not have easy access to regular plant retailers. They are used to online shopping and appreciate the convenience of conducting their shopping online. This type of audience make Social Media platforms an extremely important place to advertise and be visible. 
 
 ### Social Media
 
@@ -479,6 +480,13 @@ Testing was done manually throughout the development process. The full rundown o
     **First solution:** - The Secret Access Key I got from AWS contained a forward slash (/) which causes an error that not even Amazon are able to tackle apperently. 
     **Second solution:** - The name I had chosen for my bucket was the same as my heroku app name which caused a name error. Hence I had to create a new bucket and do the setup etc once more. 
     **Third solution:** After this the site was rendering correctly apart from all the product images. This was because the media folder where the images are stored were not downloaded into the bucket automatically. After manually creating a media folder in the bucket, and uploading all of the images to it, the site was functioning as expected. 
+
+### Known Bugs
+
+* **Sort Functionality**
+    If a user has used the search criteria to view products and then wants to use the "Sort By" button, all products on the page will be displayed and sorted instead of just the ones that matched your search criteria. If the user chooses to view a specific category, and then wishes to sort the results, the "Sort By" functionality works as intended. 
+
+
 
 [Back to content](#contents)
 
