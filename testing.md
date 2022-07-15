@@ -65,6 +65,7 @@
     * When the site owner is logged in there is a "Delete" button presented underneath each product. By clicking it the item is automatically removed from the products list. 
 
 16. As a site owner I can send confirmation and informational emails to my customers.
+    * When a user makes a purchase a confirmation email is automatically sent out to the customer. Through the Mailchimp service the site owner has access to all the site users who have signed up for the Newsletter subscription and can from there send emails. 
 
 [Back to content](#contents)
 
