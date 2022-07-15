@@ -289,8 +289,8 @@
 #### Login
 
 * Expected Outcome: A site user that is not logged in and already has an account can choose to log in using either their username or email address. If the user has forgotten their password they can request to have a password reset by clicking the "Reset Password" button and an email with a link should be posted to their email. 
-* Test: 
-* Result: 
+* Test: Try entering the correct login credentials and password, try entering wrong login credentials and/or password. Click "Reset Password" to receive reset link. 
+* Result: When entering incorrect login credentials and/or password an error is thrown asking for the right input. If the correct information is given the signing in proceeds as expected. The reset link is being sent out as expected and when following the steps a new password can be set. As an additional service to the user the Username is stated in the reset password email, in case the user forgot it. 
 * Verdict: Code functions as intended. 
 
 #### 
