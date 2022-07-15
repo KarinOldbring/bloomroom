@@ -8,7 +8,7 @@
 
 ***
 ## Contents
-* [Testing User Stories](#Testing-user-stories)
+* [Test User Stories](#Test-user-stories)
 * [Manual Testing](#Manual-testing)
 * [Automated Testing](#Automated-testing)
     * [Code Validation](#Code-validation)
@@ -18,7 +18,7 @@
 
 ***
 
-## **Testing-user-stories**
+## **Test User Stories**
 
 1. As a site user I can search the site to easily find what I am looking for.
     * Any site user, logged in or not, can user the Search functionality in the top right corner of the site. When seraching for for example a categoriy all products matching that search criteria are displayed. The site also shows how many matching items are found for that specific search criteria and has a button to easily navigate back to All plants. 
@@ -44,6 +44,7 @@
     * Any site user, logged in or not, can by clicking the shopping bag icon in the nav-bar get a full overview of their Shopping bag. If the Shopping bag is empty, that is stated and clicking the "Keep Shopping" back easily directs you back to the All products page. If there are items in the bag, the user will see the image, name, price, quantity and total cost and also has the option to change quantity and/or delete items. From here the user can either keep shopping or proceed to secure checkout. 
 
 9.  As a site user I can view and update my account, so that I can manage my account.
+    * Any logged in registered user can view their Profile. By clicking My Account and choosing My Profile in the nav-bar you are directed to the Profile view. Here the user is greeted using their username ("Welcome Username") and their Profile information is presented. From here the user can update and or delete information that has previously been saved. A note at the bottom of the page instructs the user how to go about if they wish to entirely delete their profile. In the My Profile view the user also gets an overview of previous purchases. By clicking the Order number the user is directed to the purchase specification. 
 
 10. As a site user I can sign up for a newsletter so that I can take part of news and offers.
 
