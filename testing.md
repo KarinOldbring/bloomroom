@@ -80,6 +80,35 @@
 * Result: The navigation bar is visible on every page of the site. When viewed on smaller screens the links are toggled for better user experience. 
 * Verdict: Code functions as intented.
 
+#### Logo
+
+* Expected Outcome: When clicking the logo, the user should be redirected to home page.
+* Test: I tried clicking the logo from all different pages on the site, both as logged in user and not. 
+* Result: Every time I clicked the logo I was redirected to home page.
+* Verdict: Code functions as intented.
+
+#### Home Link
+
+* Expected Outcome: When clicking the Home link, the user should be redirected to the Home page.
+* Test: I tried clicking the Home link from all different pages on the site, both as logged in user and not.
+* Result: Every time I clicked the Home link I was redirected to the home page. 
+* Verdict: Code functions as intented.
+
+#### About Link
+
+* Expected Outcome: When clicking the About link, the user should be redirected to the About page.
+* Test: I tried clicking the About link from all different pages on the site, both as logged in user and not.
+* Result: Every time I clicked the About link I was redirected to the About page.
+* Verdict: Code functions as intented.
+
+##### 
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: 
+
+#####
 
 * Expected Outcome: 
 * Test: 
@@ -87,6 +116,15 @@
 * Verdict: 
 
 
+
+
+
+#####
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: 
 
 [Back to content](#contents)
 
