@@ -247,11 +247,11 @@
 * Result: When clicking the "Shop Here" link I am being redirected to the All Products view. 
 * Verdict: Code functions as intended. 
 
-#### 
+#### Delivery Banner
 
-* Expected Outcome: 
-* Test: 
-* Result: 
+* Expected Outcome: On the Home Page there is a rolling Delivery Banner stating the Free Deilvery terms. On x-small screens, the banner should not be rolling but be still for better UX. 
+* Test: View the Delivery Banner on different size screens. 
+* Result: When using small or larger screens the Delivery Banner is rolling, on smaller screens it is not rolling but still. 
 * Verdict: Code functions as intended. 
 
 #### 
