@@ -285,9 +285,10 @@
 * Test: Try signing up for a new account using both new and already used emails and usernames or trying to leave out required information. 
 * Result: When trying to sign up for an account using already used email address and/or username I am enouraged to choose a different one. When choosing a entering a new email address and username the sign up functions. Leaving inout fields blank also throws an error. 
 * Verdict: Code functions as intended. 
-#### 
 
-* Expected Outcome: 
+#### Login
+
+* Expected Outcome: A site user that is not logged in and already has an account can choose to log in using either their username or email address. If the user has forgotten their password they can request to have a password reset by clicking the "Reset Password" button and an email with a link should be posted to their email. 
 * Test: 
 * Result: 
 * Verdict: Code functions as intended. 
