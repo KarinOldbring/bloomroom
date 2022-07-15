@@ -59,6 +59,7 @@
     * The site owner can by clicking My Account in the nav-bar and choose Product Management add new items to the site. From there the site user can fill out all fields necessary and upload an image. By clicking "Add Product" the item is added to the product list. 
 
 14. As a site owner I can update products on the site.
+    * The site owner can by clicking the Edit button under a specific product access the "Edit Product" view. The site owner will recognize this view from the Add Product view, only here the previous information is there and can be edited. The site owner can update all text and also change image. 
 
 15. As a site owner I can delete products on the site.
 
