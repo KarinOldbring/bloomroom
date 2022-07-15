@@ -187,18 +187,18 @@
 * Result: When choosing My Profile I was redirected to the My Profile page. 
 * Verdict: Code functions as intended. 
 
-#### 
+#### Product Management
 
-* Expected Outcome: 
-* Test: 
-* Result: 
+* Expected Outcome: When choosing Product Management from the My Account link, the superuser should be redirected to the Product Management page. 
+* Test: Clicked the Product Management option in the My Account link. 
+* Result: When choosing Product Management I was redirected to the Product Management page.
 * Verdict: Code functions as intended. 
 
-#### 
+#### Shopping Bag
 
-* Expected Outcome: 
-* Test: 
-* Result: 
+* Expected Outcome: When clicking the Shopping Bag icon the user should be redirected to the Shopping Bag. If there are items in the bag these should be displayed, if not there should be a message stating that it is empty and a button to take the user back to the All Products view. 
+* Test: Clicking the Shopping Bag, both when items are in the bag and not. 
+* Result: Clicking the Shopping Bag after items have been selected takes you to the Shopping Bag where the items and information regarding price etc are displayed. Clicking the Shopping Bag when no items have been selected takes you to the Shopping Bag and a message stating that the bag is empty. 
 * Verdict: Code functions as intended. 
 
 #### 
