@@ -32,6 +32,7 @@
     * Any site user, logged in or not, can categorize the products to filter the product view. This can be done either directly from the dropdown link in the nav-bar where all the categories are displayed or from the All Products view, where there are buttons linking to all the different categories. 
 
 5. As a site user I can receive real time notifications to improve my user experience.
+    * When I site user interacts with the page, adds an item to the shopping bag, edits their user profile or makes in invalid input in a form for example, a message is displayed to guide the user. There are success, alert, error and warning messages depending on the action taken. 
 
 6. As a site user I can create a user account. 
 
