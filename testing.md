@@ -254,11 +254,13 @@
 * Result: When using small or larger screens the Delivery Banner is rolling, on smaller screens it is not rolling but still. 
 * Verdict: Code functions as intended. 
 
-#### 
+### Products
 
-* Expected Outcome: 
-* Test: 
-* Result: 
+#### All Products view
+
+* Expected Outcome: When visiting the All Products view an overview of every product should be presented stating an image, name and price. There should also be clickable buttons that can take you to each category. 
+* Test: Visit the All Products page and test the different category buttons.
+* Result: All products are displayed with the right information showing. When clicking the individual category buttons you are redirected to that specific category. 
 * Verdict: Code functions as intended. 
 
 #### 
