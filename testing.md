@@ -38,6 +38,7 @@
     * Any site user can go to My Account in the nav-bar and Register an account. The registration requires a unique email-address and a unique username. If either the email-address or the username already has been used to register an account the site user will be notified and asked to choose another. 
 
 7. As a site user I can make purchases on the site. 
+    * Any site user, logged in or not, can make purchases on the site. If the user is logged in and has saved their shipping information they only need to enter Full Name and payment information. If the uer is not a registered user they will have to fill out name, shipping information and payment information. The user can then proceed to complete the order and purchase is made. 
 
 8. As a site user I can view my shopping bag so that I have complete overview of my purchase.
 
