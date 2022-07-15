@@ -69,11 +69,28 @@
 
 [Back to content](#contents)
 
-## **Manual-testing
+## **Manual Testing**
+
+### Header
+
+#### Navigation Bar (Nav-Bar)
+
+* Expected Outcome: Expected Outcome: The navigation bar should be visible on every page of the site. If page is rendered on smaller screens the navigation bar should toggle for better user experience. 
+* Test: Visit every page of the site to check if navigation bar is visible. View the navigation bar on different size screens to check responsiveness of navigation bar and toggle function. 
+* Result: The navigation bar is visible on every page of the site. When viewed on smaller screens the links are toggled for better user experience. 
+* Verdict: Code functions as intented.
+
+
+* Expected Outcome: 
+* Test: 
+* Result: 
+* Verdict: 
+
+
 
 [Back to content](#contents)
 
-## **Automated-testing**
+## **Automated Testing**
 
 [Back to content](#contents)
 
@@ -81,7 +98,7 @@
 
 The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the HTML and CSS code used. The [PEP8 Python Validator](http://pep8online.com/) was used to validate the Python code. 
 
-***Results:
+***Results:***
 
 * HTML Validation
 
@@ -90,6 +107,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 * Python Validation
 
 Files tested:
+
 *Bag*
 * urls.py
 * contexts.py
@@ -127,8 +145,6 @@ Files tested:
 * models.py
 * urls.py
 * views.py
-
-*env.py*
 
 #### **Browser-validation**
 
