@@ -224,12 +224,11 @@
 * Result: When clicking the icons the social media is opened up in a new tab. 
 * Verdict: Code functions as intented.
 
+#### Footer Mid Section
 
-#### 
-
-* Expected Outcome: 
-* Test: 
-* Result: 
+* Expected Outcome: The mid section of the Footer, showing the logo and email address, are supposed to be visible on smaller screens and wider. In the mid section there is the BloomRoom logo, which when clicked takes the user to the homepage and also BloomRooms email address. If you are using a device where you are logged in to your mail, a new mail with BloomRoom as the receiver will open up. 
+* Test: Looking at the mid section on different size screens to make sure that it is only visible on smaller screens and larger. Click both the logo and the email address to check that you are redirected as expected. 
+* Result: When viewing the site on smaller deivces the mid section is hidden. When dlicking the logo you are redirected to the home page. If you are logged in to your own email on your device when clicking the email address a new email opens up with BloomRoom as the receiver. 
 * Verdict: Code functions as intended. 
 
 #### 
