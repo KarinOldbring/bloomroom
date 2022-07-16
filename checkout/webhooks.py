@@ -3,10 +3,8 @@ from django.http import HttpResponse
 from django.views.decorators.http import require_POST
 from django.views.decorators.csrf import csrf_exempt
 
-from checkout.webhook_handler import StripeWH_Handler
-
 import stripe
-import json
+from checkout.webhook_handler import StripeWH_Handler
 
 
 @require_POST
@@ -61,6 +59,3 @@ def webhook(request):
     # Call the event handler with the event
     response = event_handler(event)
     return response
-
-
-stripe.api_key = settings.STRIPE_SECRET_KEY
