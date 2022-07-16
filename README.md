@@ -41,7 +41,7 @@
 * **[Deployment](#Deployment)**
     * [Deploying on Heroku](#Deploying-on-Heroku)
 
-* **Credits** 
+* **[Credits](#Credits)** 
     * [Media](#Media)
     * [Code](#Code)
     * [Acknowledgements](#Acknowledgements)
@@ -77,7 +77,7 @@ The app is designed as an e-commerce application that encourages users to make p
 
 #### **Epics**
 
-Some overall goals were first created for this project, that later resulted in more specific User Stories. The overall goals are presented here along with the ID number of the belonging User stories:
+Some overall goals were first created for this project, that later resulted in more specific User Stories. The overall goals are presented here along with the ID number of the connected User stories:
 
 *Customers should be able to create and manage a personal account.*
     - User story 6,9
