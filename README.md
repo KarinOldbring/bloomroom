@@ -181,7 +181,7 @@ From here users who already have an account can sign in to access their profile 
 
 *Log Out*
 
-![Log Out](/static/site_images/wf-logout.png)
+![Log Out](/static/site_images/wf-logout.png) ![Mob Log Out](/static/site_images/mob-logout.png)
 
 When logged in users are done on the page they can choose to log out from their user account. 
 
