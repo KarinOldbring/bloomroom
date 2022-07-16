@@ -78,6 +78,15 @@ a {
     width: 100%;
 }
 
+#delivery-banner-sm {
+    overflow: hidden;
+    border: 0.3px solid #000000;
+    position: absolute;
+    bottom: 0px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+}
+
 .rolling {
     -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
