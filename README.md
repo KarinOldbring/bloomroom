@@ -163,7 +163,7 @@ When clicking on Products, either from the dropdown menu in the navigation bar o
 
 *Product Detail*
 
-![Product Detail](/static/site_images/wf-product-detail.png)
+![Product Detail](/static/site_images/wf-product-detail.png) ![Mob Product Detail](/static/site_images/mob-prod-detail.png)
 
 When viewing all products, the user can easily access the full information regarding a specific product by clicking on the image or the name of the product. This redirects the user to the product detail page, where the user can see all information. From here the user can go back to the products page or choose to add the item in the bag. 
 
