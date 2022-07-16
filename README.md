@@ -193,7 +193,7 @@ Logged in users can go to their profile page. Here they can view, update and del
 
 *Shopping Bag*
 
-![Shopping Bag](/static/site_images/wf-bag.png)
+![Shopping Bag](/static/site_images/wf-bag.png) ![Mob Shopping Bag](/static/site_images/mob-bag.png)
 
 By clicking on the bag icon in the navigation bar, logged in users can easily access their shopping bag. From here they can see the content in the bag and product information of their selected items. From here they can also update and/or delete items as well as proceed to checkout or keep shopping. 
 
