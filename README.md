@@ -472,6 +472,10 @@ Testing was done manually throughout the development process. The full rundown o
     
     **Solution:** It turned out I had to remove the trailing slash from the checkout urls.py.
 
+* **Bug:** When making purchases from the deployed site I noticed that no emails were being sent. The webhooks throwing no errors and emails were rendered in the terminal if purchases were made through the local site. 
+
+    **Solution:** I still had the gitpod url as the endpoint in my Stripe settings, changing the endpoint to the deployed url sorted the issue. 
+
 * **Bug:** Another round of webhook errors occured which I noticed since no confirmation emails were sent and those are triggered by the webhook handler. 
 
     **Solution:** I double checked all secret_key, public_key and my wh_secret_key to make sure that the ones from my Stripe site matched in my Heroku Config Vars and in my env.py file. It turned out that the wh_secret_key was not the same anymore and after updating it the webhooks operated as expected. 
