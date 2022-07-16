@@ -69,7 +69,7 @@ a {
     margin-bottom: 6rem;
 }
 
-.delivery-banner {
+#delivery-banner {
     overflow: hidden;
     border: 0.3px solid #000000;
     position: absolute;
