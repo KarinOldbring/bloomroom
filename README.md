@@ -175,7 +175,7 @@ The is a simple and easy page for users to sign up for an account to be able to 
 
 *Sign In*
 
-![Sign In](/static/site_images/wf-signin.png)
+![Sign In](/static/site_images/wf-signin.png) ![Mob Sign In](/static/site_images/mob-signin.png)
 
 From here users who already have an account can sign in to access their profile page. 
 
