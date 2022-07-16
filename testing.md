@@ -50,7 +50,7 @@
     * Any site user, logged in or not, can sign up for a Newsletter subscription. By submitting their email address in the bottom right corner in the footer they are automatically signed up. After submitting an email address an alert shows up thanking the user for subscribing. 
 
 11. As a site user I can receive emails regarding my purchases.
-    * Any site user, logged in or not, receives a confirmation emails after making a purchase.
+    * Any site user, logged in or not, receives a confirmation email after making a purchase.
 
 12. As a site owner I can log in to view the current products and their specifics on the site.
     * The site owner can easily access the product specifications on the site. When logged in the site owner has the opportunity to edit and delete items on the site by clicking the Edit or Delete buttons beneath each product. 
@@ -273,8 +273,8 @@
 #### Product Detail
 
 * Expected Outcome: When clicking either a product image or the name of a product you should be redirected to the product detail page. Here you should see all specifics about the product and also have the ablitity to add product to Shopping Bag and if so choose quantity. There should also be a "Keep Shopping" button that takes the user back to the All Products page. 
-* Test: Click the different products to check if I am being redirected and all information is displayed including Add to Bag option. 
-* Result: When clicking the product the user can see that items specifications and is given the option to add the item to the Shopping Bag including choosing quantity.  The "Keep Shopping button is also there and when clicked the user is redirected to the All Products page. 
+* Test: Click the different products to check if I am being redirected and all information is displayed including Add to Bag option. Tried entering less than 1 item and more than 99 by using the icons and entering numbers manually. 
+* Result: When clicking the product the user can see that items specifications and is given the option to add the item to the Shopping Bag including choosing quantity. If you try to enter more a quantity beyond the allowed scope (0-99) you are notified that the number is invalid. The "Keep Shopping button is also there and when clicked the user is redirected to the All Products page. 
 * Verdict: Code functions as intended. 
 
 ### My Account
@@ -300,11 +300,11 @@
 * Result: When clicking log out the user is being redirected to a Log Out page where the user can either confirm that they wish to log out or be redirected back to the Home page. 
 * Verdict: Code functions as intended. 
 
-#### Shopping Bag & Checkout
+### Shopping Bag & Checkout
 
 #### Shopping Bag 
 
-* Expected Outcome: The shopping bag is for the user to see all items in the bag. The bag should show product info, bag total, delivery cost and grand total. Apart from that the user should be given the opportunity to change quantity of selected items or remove them entirely. From here the user should be given the option to either proceed to Secure Checkout or Keep Shopping. 
+* Expected Outcome: The shopping bag aims for the user to see all items in the bag. The bag should show product info, bag total, delivery cost and grand total. Apart from that the user should be given the opportunity to change quantity of selected items or remove them entirely. From here the user should be given the option to either proceed to Secure Checkout or Keep Shopping. 
 * Test: By adding items to the bag, I tried changing quantity and deleting the item entirely. 
 * Result: I was able to adjust quantity and delete items completely. When doing so the total cost was adjusted. From here I could choose to Keep Shopping or go to Secure Checkout. 
 * Verdict: Code functions as intended. 
