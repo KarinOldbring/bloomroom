@@ -79,6 +79,7 @@ a {
 }
 
 #delivery-banner-sm {
+    overflow: hidden;
     border: 0.3px solid #000000;
     position: absolute;
     bottom: 0px;
