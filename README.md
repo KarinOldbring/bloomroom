@@ -156,7 +156,7 @@ The about page is strictly for informational purpose. Here you can find informat
 
 *Products*
 
-![Products](/static/site_images/wf-products.png)
+![Products](/static/site_images/wf-products.png) ![Mob Products](/static/site_images/mob-products.png)
 
 When clicking on Products, either from the dropdown menu in the navigation bar or from the Shop Here link on the middle of the home page, you reach the items that are being sold now. Here you get an overview of the products, an image, name and price. 
 
