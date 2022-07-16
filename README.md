@@ -199,7 +199,7 @@ By clicking on the bag icon in the navigation bar, logged in users can easily ac
 
 *Checkout*
 
-![Checkout](/static/site_images/wf-checkout.png)
+![Checkout](/static/site_images/wf-checkout.png) ![Mob Checkout](/static/site_images/mob-checkout.png)
 
 When the customer is done shopping they can click on the checkout to complete their purchase. From this view they can see either their prefilled information, add new information or update if they wish. The customer is asked to provide billing details such as credit card information to complete the purchase. 
 
