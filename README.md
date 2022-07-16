@@ -142,62 +142,62 @@ All images on the site are taken from [Pexels.com](https://www.pexels.com/). Pex
 
 Site moc-ups were designed using [Balsamiq Wireframes](https://balsamiq.com/). Since the site is built to be fully responsive one of the design goals was that the user should recognize the different pages and sections of the page no matter what size they were using. 
 
-*Front Page*
+**Front Page**
 
 ![Front Page](/static/site_images/wf-index.png) ![Mob Front Page](/static/site_images/mob-index.png)
 
 The front page is designed to give the user an instant understanding of the purpose of the page. From the home page you can easily access all product, account features, shopping bag etc. 
 
-*About Page*
+**About Page**
 
 ![About Page](/static/site_images/wf-about.png) ![Mob About Page](/static/site_images/mob-about.png)
 
 The about page is strictly for informational purpose. Here you can find information about BloomRoom and read about why to choose BloomRoom as your plant supplier. 
 
-*Products*
+**Products**
 
 ![Products](/static/site_images/wf-products.png) ![Mob Products](/static/site_images/mob-products.png)
 
 When clicking on Products, either from the dropdown menu in the navigation bar or from the Shop Here link on the middle of the home page, you reach the items that are being sold now. Here you get an overview of the products, an image, name and price. 
 
 
-*Product Detail*
+**Product Detail**
 
 ![Product Detail](/static/site_images/wf-product-detail.png) ![Mob Product Detail](/static/site_images/mob-prod-detail.png)
 
 When viewing all products, the user can easily access the full information regarding a specific product by clicking on the image or the name of the product. This redirects the user to the product detail page, where the user can see all information. From here the user can go back to the products page or choose to add the item in the bag. 
 
-*Sign Up*
+**Sign Up**
 
 ![Sign Up](/static/site_images/wf-signup.png) ![Mob Sign Up](/static/site_images/mob-signup.png)
 
 The is a simple and easy page for users to sign up for an account to be able to shop more easily and keep track of their previous purchases. 
 
-*Sign In*
+**Sign In**
 
 ![Sign In](/static/site_images/wf-signin.png) ![Mob Sign In](/static/site_images/mob-signin.png)
 
 From here users who already have an account can sign in to access their profile page. 
 
-*Log Out*
+**Log Out**
 
 ![Log Out](/static/site_images/wf-logout.png) ![Mob Log Out](/static/site_images/mob-logout.png)
 
 When logged in users are done on the page they can choose to log out from their user account. 
 
-*Profile*
+**Profile**
 
 ![Profile](/static/site_images/wf-profile.png) ![Mob Profile](/static/site_images/mob-profile.png)
 
 Logged in users can go to their profile page. Here they can view, update and delete information. On this page the user also gets an overview of previous purchases and has to option to view those in detail. 
 
-*Shopping Bag*
+**Shopping Bag**
 
 ![Shopping Bag](/static/site_images/wf-bag.png) ![Mob Shopping Bag](/static/site_images/mob-bag.png)
 
 By clicking on the bag icon in the navigation bar, logged in users can easily access their shopping bag. From here they can see the content in the bag and product information of their selected items. From here they can also update and/or delete items as well as proceed to checkout or keep shopping. 
 
-*Checkout*
+**Checkout**
 
 ![Checkout](/static/site_images/wf-checkout.png) ![Mob Checkout](/static/site_images/mob-checkout.png)
 
