@@ -472,6 +472,10 @@ Testing was done manually throughout the development process. The full rundown o
     
     **Solution:** It turned out I had to remove the trailing slash from the checkout urls.py.
 
+* **Bug:** Another round of webhook errors occured which I noticed since no confirmation emails were sent and those are triggered by the webhook handler. 
+
+    **Solution:** I double checked all secret_key, public_key and my wh_secret_key to make sure that the ones from my Stripe site matched in my Heroku Config Vars and in my env.py file. It turned out that the wh_secret_key was not the same anymore and after updating it the webhooks operated as expected. 
+
 * **Bug:** When clicking all plants I wanted the different sub-categories to show up, but All Plants also showed up as a button. 
 
     **Solution:** Initially I had entered All plants as its own category, but I later realized that was abundant and hence removed that category entirely which took care of the issue. 
