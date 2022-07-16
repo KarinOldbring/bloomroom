@@ -169,7 +169,7 @@ When viewing all products, the user can easily access the full information regar
 
 *Sign Up*
 
-![Sign Up](/static/site_images/wf-signup.png)
+![Sign Up](/static/site_images/wf-signup.png) ![Mob Sign Up](/static/site_images/mob-signup.png)
 
 The is a simple and easy page for users to sign up for an account to be able to shop more easily and keep track of their previous purchases. 
 
