@@ -144,13 +144,13 @@ Site moc-ups were designed using [Balsamiq Wireframes](https://balsamiq.com/). S
 
 *Front Page*
 
-![Front Page](/static/site_images/wf-index.png)
+![Front Page](/static/site_images/wf-index.png) ![Mob Front Page](/static/site_images/mob-index.png)
 
 The front page is designed to give the user an instant understanding of the purpose of the page. From the home page you can easily access all product, account features, shopping bag etc. 
 
 *About Page*
 
-![About Page](/static/site_images/wf-about.png)
+![About Page](/static/site_images/wf-about.png) ![Mob About Page](/static/site_images/mob-about.png)
 
 The about page is strictly for informational purpose. Here you can find information about BloomRoom and read about why to choose BloomRoom as your plant supplier. 
 
