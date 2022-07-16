@@ -9,6 +9,7 @@
     * [Business Plan](#Business-Plan)
     * [Planning Stage](#Planning-Stage)
     * [Project Goals](#Project-Goals)
+        * [Epics](#Epics)
     * [User Stories](#User-Stories)
     * [Design Goals](#Design-Goals)
     * [Design Choices](#Design-Choices)
