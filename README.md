@@ -75,6 +75,25 @@ The app is designed as an e-commerce application that encourages users to make p
 
 [Back to content](#contents)
 
+#### **Epics**
+
+Some overall goals were first created for this project, that later resulted in more specific User Stories. The overall goals are presented here along with the ID number of the belonging User stories:
+
+*Customers should be able to create and manage a personal account.*
+    - User story 6,9
+
+*The site should have a customer friendly product presentation.*
+    - User story 2, 3, 4
+
+*Ensure intuitive and easy process for customer purchases.*
+    - User story 7, 8
+
+*Straightforward and easily accessible product management for site owner.*
+    - User story 12, 13, 14, 15, 16
+
+*Constant feedback to site user when interacting with the site.*
+    - User story 1, 5, 10, 11
+
 ### **User Stories**
 
 *Agile methodology was used to create user stories.*
