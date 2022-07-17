@@ -427,13 +427,11 @@ All images displayed on the page have descriptive alternative text for better se
 
 The site has been equipped with a [Sitemap.xml](/sitemap.xml).
 
-
 [Back to content](#contents)
 
 ### **Robots**
 
-
-
+The site has been equipped with a [Robots.txt file](/robots.txt). 
 
 [Back to content](#contents)
 
