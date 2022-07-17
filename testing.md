@@ -345,10 +345,20 @@ Pages tested:
 - My Account
     - Register
     - Sign In
-    - Sign Up
-    
+    - My Profile
+    - Log Out
+- Shopping Bag
+    - Checkout
+    - Checkout Success
 
 * CSS Validation
+
+All files tested passed with no errors. 
+
+Files tested:
+
+- checkout.css
+- style.css
 
 * Python Validation
 
