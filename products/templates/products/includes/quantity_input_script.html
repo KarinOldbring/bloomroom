@@ -27,18 +27,22 @@
        e.preventDefault();
        var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
        var currentValue = parseInt($(closestInput).val());
-       $(closestInput).val(currentValue + 1);
-       var itemId = $(this).data('item_id');
+       $(allQuantityInputs).val(currentValue + 1);
        handleEnableDisable(itemId);
     });
 
     // Decrement quantity
     $('.decrement-qty').click(function(e) {
        e.preventDefault();
-       var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
-       var currentValue = parseInt($(closestInput).val());
-       $(closestInput).val(currentValue - 1);
        var itemId = $(this).data('item_id');
+       var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
+       if (size) {
+          var allQuantityInputs = $(`.input-group-${itemId}`);
+       } else {
+          var allQuantityInputs = $(`.input-group-${itemId} input[name='quantity']`);
+       }
+       var currentValue = parseInt($(closestInput).val());
+       $(allQuantityInputs).val(currentValue - 1);
        handleEnableDisable(itemId);
     });
 </script>
