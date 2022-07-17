@@ -362,6 +362,8 @@ Files tested:
 
 * Python Validation
 
+All files tested passed with no errors except for line 51 in Checkout models.py. I tried breaking that line in many different ways but all my attempts ended with the code not functioning as expected. 
+
 Files tested:
 
 *Bag*
