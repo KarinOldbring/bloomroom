@@ -142,17 +142,13 @@
     // Update quantity on click
     $('.update-link').click(function(e) {
         var form = $(this).prev('.update-form');
-        //console.log(form);
-        //let input=$(form).find("input.qty_input")
-        
-        //if (input.validity.valid==false){
-        //    input.setCustomValidity("Maximum quantity 99");
-          //  input.reportValidity();
-        //} else {
-          //  form.submit();
-        //}
-        //form.checkValidity()
-        form.submit();
+        let input=$(form).find("input.qty_input")
+        if (input[0].validity.valid==false){
+            input[0].setCustomValidity("Maximum quantity 99");
+            input[0].reportValidity();
+        } else {
+            form.submit();
+        }
     })
 
     // Remove item and reload on click
