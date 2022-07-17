@@ -92,7 +92,7 @@
                     aria-haspopup="true" aria-expanded="false">
                     My Account
                   </a>
-                  <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                  <div class="dropdown-menu border-0" aria-labelledby="navbarDropdown">
                     {% if request.user.is_authenticated %}
                     {% if request.user.is_superuser %}
                     <a href="{% url 'add_product' %}" class="dropdown-item">Product Management</a>
