@@ -309,20 +309,12 @@
 * Result: I was able to adjust quantity and delete items completely. When doing so the total cost was adjusted. From here I could choose to Keep Shopping or go to Secure Checkout. 
 * Verdict: Code functions as intended. 
 
-#### 
+#### Checkout
 
 * Expected Outcome: 
 * Test: 
 * Result: 
 * Verdict: Code functions as intended. 
-
-#### 
-
-* Expected Outcome: 
-* Test: 
-* Result: 
-* Verdict: Code functions as intended. 
-
 
 [Back to content](#contents)
 
@@ -337,6 +329,24 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 ***Results:***
 
 * HTML Validation
+
+All files tested passed with no errors. 
+
+Pages tested:
+
+- Home Page
+- About Page
+- All Plants
+    - Green Plants
+    - Blooming Plants
+    - Pet Friendly
+    - Larger Plants
+    - Smaller Plants
+- My Account
+    - Register
+    - Sign In
+    - Sign Up
+    
 
 * CSS Validation
 
