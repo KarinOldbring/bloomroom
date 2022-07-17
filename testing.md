@@ -402,6 +402,10 @@ Files tested:
 * urls.py
 * views.py
 
+* JavaScript Validation
+
+
+
 #### **Browser-validation**
 
 ## **User-testing**
