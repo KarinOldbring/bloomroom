@@ -425,7 +425,7 @@ All images displayed on the page have descriptive alternative text for better se
 
 ### **Sitemap**
 
-
+The site has been equipped with a [Sitemap.xml](/sitemap.xml).
 
 
 [Back to content](#contents)
