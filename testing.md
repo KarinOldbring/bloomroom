@@ -311,9 +311,9 @@
 
 #### Checkout
 
-* Expected Outcome: 
-* Test: 
-* Result: 
+* Expected Outcome: When the user is done shopping they should be able to go to Secure Checkout to complete the purchase. From there they are supposed to fill in the missing information, if information has been saved from before it should be already filled in. After entering the necessary information, the user should be notified and an order confirmation be presented. The user should also receive the order confirmation by email. 
+* Test: Make a purchase, both as previously logged in user or not. Fill out necessary information to complete the purchase and verify that email has been sent.  
+* Result: When making a purchase as previously logged in user the saved information was automatically filled in. If completing the purchase when not logged in the user is informed that they can Log in or Register if they wish to save their information for future purchases. After the form is completed, the user is presented with an order confirmation. The same confirmation is also sent to the users email. 
 * Verdict: Code functions as intended. 
 
 [Back to content](#contents)
