@@ -219,7 +219,7 @@ When logged in users are done on the page they can choose to log out from their 
 
 ![Profile](/static/site_images/wf-profile.png) ![Mob Profile](/static/site_images/mob-profile.png)
 
-Logged in users can go to their profile page. Here they can view, update and delete information. On this page the user also gets an overview of previous purchases and has to option to view those in detail. 
+Logged in users can go to their profile page. Here they can view, update and delete information. On this page the user also gets an overview of previous purchases and has the option to view those in detail. 
 
 **Shopping Bag**
 
