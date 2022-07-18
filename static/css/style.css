@@ -189,6 +189,7 @@ a {
     height: 30vw;
     width: auto;
     object-fit: cover;
+    margin-top: 5px;
 }
 
 footer {

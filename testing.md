@@ -411,6 +411,8 @@ The site has been tested with Lighthouse. Performance could be further improved 
 
 ![Lighthouse](/static/site_images/lighthouse.png)
 
+[Back to content](#contents)
+
 ## **Browser-validation**
 
 [Back to content](#contents)
