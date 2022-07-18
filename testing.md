@@ -413,7 +413,14 @@ The site has been tested with Lighthouse. Performance could be further improved 
 
 [Back to content](#contents)
 
-## **Browser-validation**
+## **Browser validation**
+
+The site has been tested using the following browsers:
+
+- Chrome
+- Edge
+- Firefox
+- Safari
 
 [Back to content](#contents)
 
