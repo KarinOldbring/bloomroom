@@ -273,8 +273,8 @@
 #### Product Detail
 
 * Expected Outcome: When clicking either a product image or the name of a product you should be redirected to the product detail page. Here you should see all specifics about the product and also have the ablitity to add product to Shopping Bag and if so choose quantity. There should also be a "Keep Shopping" button that takes the user back to the All Products page. 
-* Test: Click the different products to check if I am being redirected and all information is displayed including Add to Bag option. Tried entering less than 1 item and more than 99 by using the icons and entering numbers manually. 
-* Result: When clicking the product the user can see that items specifications and is given the option to add the item to the Shopping Bag including choosing quantity. If you try to enter more a quantity beyond the allowed scope (0-99) you are notified that the number is invalid. The "Keep Shopping button is also there and when clicked the user is redirected to the All Products page. 
+* Test: Click the different products to check if I am being redirected and all information is displayed including Add to Bag option. I also tried to go beyond the allowed quantity scope of 1-99, by using the icons or typing in number manually and typing in other caracters than digits. 
+* Result: When clicking the product the user can see that items specifications and is given the option to add the item to the Shopping Bag including choosing quantity. If you try to enter more a quantity beyond the allowed scope (0-99) you are notified that the number is invalid. If I tried entering an invalid input such as letters I was instructed to enter a valid input. The "Keep Shopping button is also there and when clicked the user is redirected to the All Products page. 
 * Verdict: Code functions as intended. 
 
 ### My Account
@@ -306,7 +306,7 @@
 
 * Expected Outcome: The shopping bag aims for the user to see all items in the bag. The bag should show product info, bag total, delivery cost and grand total. Apart from that the user should be given the opportunity to change quantity of selected items or remove them entirely. From here the user should be given the option to either proceed to Secure Checkout or Keep Shopping. 
 * Test: By adding items to the bag, I tried changing quantity and deleting the item entirely. I also tried to go beyond the allowed quantity scope of 1-99, by using the icons or typing in number manually and typing in other caracters than digits. 
-* Result: I was able to adjust quantity and delete items completely. When doing so the total cost was adjusted. From here I could choose to Keep Shopping or go to Secure Checkout. If I tried going beyond the allowed scope I was instructed to pick a number between 1-99, or a valid if I tried entering invalid characters. 
+* Result: I was able to adjust quantity and delete items completely. When doing so the total cost was adjusted. From here I could choose to Keep Shopping or go to Secure Checkout. If I tried going beyond the allowed scope I was instructed to pick a number between 1-99, or to enter a valid input if I tried entering invalid characters. 
 * Verdict: Code functions as intended. 
 
 #### Checkout
