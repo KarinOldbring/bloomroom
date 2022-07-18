@@ -274,7 +274,7 @@ When the customer is done shopping they can click on the checkout to complete th
 |            | street_address1          | CharField     |
 |            | street_address2          | CharField     |
 |            | county                   | CharField     |
-|            | additional_shipping_info | TextField     |
+|            | additional_shipping_info | CharField     |
 |            | date                     | DateTimeField |
 |            | delivery_cost            | DecimalField  |
 |            | order_total              | DecimalField  |
@@ -315,13 +315,13 @@ When the customer is done shopping they can click on the checkout to complete th
 
 ![Navbar Desktop](/static/site_images/navbar-1.png)     ![Navbar Mobile](/static/site_images/navbar-2.png)
 
-The wide nav-bar is with links and icons is displayed on desktop screens. In the left corner is the BloomRoom logo, which when clicked takes you to the home page. Following the logo are several links to different parts of the site. First there is a link for "Home" whih has the same effect as clicking the logo but I still chose to add it for better UX experience and easier navigation. Next comes a link to the About section (more on that furhter down). After that there are links for the products. A dropdown link where you can either choose to view all products or select a specific category. The last link on the left hand side of the nav-bar is also a dropdown where users can manage their accounts. Depending on whether they are logged in or not, different options are displayed. The right hand side of the nav-bar contain the shopping bag to start with. A widely used icon symbolizing a shopping bag represents the bag under underneath it is the current shopping amount of the bag. Last but not least there is a search field. From here users can easily access items on the site by searching. The nav-bar toggles on smaller, mobile screens. The logo is still in the top left corner, and clicking it will direct you to the home page. The Home, About, Products and My Account links are toggled in to a burger icon, where you easily can access the different pages of the site. Beneath those are the shoppingbag icon and the searchfield. The nav-bar is always visible, no matter which device the user has. 
+The wide nav-bar with links and icons are displayed on desktop screens. In the left corner is the BloomRoom logo, which when clicked takes you to the Home page. Following the logo are several links to different parts of the site. First there is a link for "Home" which has the same effect as clicking the logo but I still chose to add it for better UX experience and easier navigation. Next comes a link to the About section (more on that further down). After that there are links for the products. A dropdown link where you can either choose to view all products or select a specific category. The last link on the left hand side of the nav-bar is also a dropdown where users can manage their accounts. Depending on whether they are logged in or not, different options are displayed. The right hand side of the nav-bar contains the shopping bag to start with. A widely used icon symbolizing a shopping bag represents the bag and under underneath it the current shopping amount of the bag is displayed. Last but not least there is a search field. From here users can easily access items on the site by searching. The nav-bar toggles on smaller, mobile screens. The logo is still in the top left corner, and clicking it will direct you to the home page. The Home, About, Products and My Account links are toggled in to a burger icon, where you easily can access the different pages of the site. Beneath those are the shoppingbag icon and the searchfield. The nav-bar is always visible, no matter which device the user has. 
 
 #### Footer
 
 ![Footer Desktop](/static/site_images/footer-1.png)     ![Footer Mobile](/static/site_images/footer-2.png)
 
-The footer contains links to the BloomRoom Facebook page and Instagram. On desktop screens the logo and en email address is also presented, clicking the logo takes you back to the home page. On the right hand side of the footer there is a sign up form for subscribing to the newsletter. The footer looks basically the same on mobile screens, apart from the mid section containing the logo and email address, that are hidden on smaller screens. 
+The footer contains links to the BloomRoom Facebook page and Instagram. On desktop screens the logo and en email address is also presented, clicking the logo takes you back to the home page. On the right hand side of the footer there is a sign up form for subscribing to the newsletter. The footer looks basically the same on mobile screens, apart from the mid section containing the logo and email address, that is hidden on smaller screens. 
 
 #### Front Page
 
@@ -333,19 +333,19 @@ The home page aims to be eye catching and explanatory at the same time. A sophis
 
 ![About Page](/static/site_images/about-page.png)
 
-On the About page the users can get more information about BloomRoom and why you should choose BloomRoom as your plant supplier. There is also contact information so that the user can easily can get in touch with BloomRoom. On smaller screens the image is hidden for better UX. 
+On the About page the users can get more information about BloomRoom and why you should choose BloomRoom as your plant supplier. There is also contact information so that the user easily can get in touch with BloomRoom. On smaller screens the image is hidden for better UX. 
 
 #### All Products
 
 ![Products Page](/static/site_images/plants-page.png)
 
-Clicking on the link for All Products in the nav-bar or the Shop Here link on the Home page will take you to the product view. Here you get an overview of all products, image, name and price. On this site you can choose to view a certain category by clicking on one of the category buttons on the top of the page. You can also sort the products by price, ascending and descending or by name. 
+Clicking on the link for All Products in the nav-bar or the "Shop Here" link on the Home page will take you to the product view. Here you get an overview of all products, and their image, name and price. On this site you can choose to view a certain category by clicking on one of the category buttons on the top of the page. You can also sort the products by price, ascending and descending, or by name. 
 
 #### Product Detail
 
 ![Product Detail](/static/site_images/product-detail-page.png)
 
-When clicking on either a product image or its name you are directed to the product detail view. From here you get all information regarding the plant and you can also choose to add it in your shopping bag. There is also a button to redirect you back to the All products page. If the user is a superuser, there are also options to edit and/or delete the product directly from here. 
+When clicking on either a product image or its name you are directed to the product detail view. From here you get all information regarding the plant and you can also choose to add it in your shopping bag. There is also a button to redirect you back to the All products page. If the user is a superuser, there are options to edit and/or delete the product directly from here. 
 
 #### Manage Product
 
@@ -369,7 +369,7 @@ From the nav-bar the user can easily access the different options Sign Up, Sign 
 
 ![Shopping Bag](/static/site_images/shoppingbag-page.png)
 
-When users click on the shoppingbag icon in the nav-bar they are taken to the Shopping Bag view. If there are no items in the shopping bag a message stating that is displayed along with a button directing back to the products site. The Shopping Bag clearly displays the items currently in the bag, and an easy option to update quantity of those items or deleting them. You can also see the price for each item, the total price and whether or not you have reached the free shipping limit ($40). From the Shopping Bag view you can either go back to shopping or go further to the secure Checkout. 
+When users click on the shoppingbag icon in the nav-bar they are taken to the Shopping Bag view. If there are no items in the shopping bag a message stating so is displayed along with a button directing back to the products site. The Shopping Bag clearly displays the items currently in the bag, and an easy option to update quantity of those items or deleting them. You can also see the price for each item, the total price and whether or not you have reached the free shipping limit ($40). From the Shopping Bag view you can either go back to the Products view or proceed to the secure Checkout. 
 
 #### Checkout Page
 
@@ -406,7 +406,7 @@ Whenever the user interacts with the page, ie logs in, adds a product to the sho
 * A future version of BloomRoom could feature an option to comment and or rate products on the site. It could be a good way to involve the customers more. 
 * Another feature that could quite easily be managed by the site owner is special offers or even gifts for customers on their birthdays. I included the option to add your date of birth in your Profile, which would enable the site owner to use that information. 
 * As of now if a user wishes to delete their user profile, they are advised to send an email. This is not optimal and a future version would include the option for the user to perform that task themselves. 
-* Other products related to plants and flowers such as, flower pots, fertilizer etc could be added to the product list. 
+* Other products related to plants and flowers such as flower pots, fertilizer etc could be added to the product list. 
 
 [Back to content](#contents)
 
