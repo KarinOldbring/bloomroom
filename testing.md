@@ -13,6 +13,10 @@
 * [Validation Testing](#Validation-testing)
     * [Code Validation](#Code-validation)
 * [Browser Validation](#Browser-validation)
+    * [HTML](#HTML)
+    * [CSS](#CSS)
+    * [Python](#Python)
+    * [Javascript](#Javascript)
 * [Lighthouse](#Lighthouse)
 * [User Testing](#User-testing)
 
@@ -319,15 +323,13 @@
 
 [Back to content](#contents)
 
-## **Validation Testing**
+## **Code Validation**
 
-#### **Code-validation**
+#### **HTML**
 
-The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the HTML and CSS code used. The [PEP8 Python Validator](http://pep8online.com/) was used to validate the Python code. 
+The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the HTML.
 
 ***Results:***
-
-* HTML Validation
 
 All files tested passed with no errors. 
 
@@ -350,7 +352,9 @@ Pages tested:
     - Checkout
     - Checkout Success
 
-* CSS Validation
+#### **CSS**
+
+The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the CSS.
 
 All files tested passed with no errors. 
 
@@ -359,9 +363,10 @@ Files tested:
 - checkout.css
 - style.css
 
-* Python Validation
+#### **Python**
 
-All files tested passed with no errors except for line 51 in Checkout models.py. I tried breaking that line in many different ways but all my attempts ended with the code not functioning as expected hence I left it with a #noqa in the end of the line.  
+The [PEP8 Python Validator](http://pep8online.com/) was used to validate the Python code. 
+All files tested passed with no errors except for line 51 in Checkout models.py since it was too long. I tried breaking that line in many different ways but all my attempts ended with the code not functioning as expected hence I left it with a #noqa at the end of the line.  
 
 Files tested:
 
@@ -403,7 +408,7 @@ Files tested:
 * urls.py
 * views.py
 
-* JavaScript Validation
+#### **JavaScript**
 
 ## **Lighthouse**
 
@@ -424,7 +429,7 @@ The site has been tested using the following browsers:
 
 [Back to content](#contents)
 
-## **User-testing**
+## **User testing**
 
 The site has been tested regularly during development. After the site was completed the site has been tested by several users to make sure functionality and good user experience is maintained. The site has also been tested on devices with different screen sizes. The site has also been tested on both Android and Apple mobile. 
 
