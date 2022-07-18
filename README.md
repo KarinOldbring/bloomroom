@@ -853,7 +853,7 @@ References used and Inspiration:
 
 ### **Acknowledgements**
 
-* All my wonderful fellow students on Slack who are always there to help and cheer you on! I especially want to thank [Matt Bodden](https://github.com/MattBCoding) and [Daniel Callaghan](https://github.com/xiaoniuniu89), and there are many more. Also a big thanks to [John Traas](https://github.com/Jays-T) at CI for invaluable support when fixing the bugs regarding my AWS setup. This would have been a lot harder without my friend [Carrie](Carrie8348_5p) who has been giving me lots of laughs and support during this project!
+* All my wonderful fellow students on Slack who are always there to help and cheer you on! I especially want to thank [Matt Bodden](https://github.com/MattBCoding) and [Daniel Callaghan](https://github.com/xiaoniuniu89), and there are many more. Also a big thanks to [John Traas](https://github.com/Jays-T) at CI for invaluable support when fixing the bugs regarding my AWS setup. This would have been a lot harder without my friend Carrie8348_5p who has been giving me lots of laughs and support during this project!
 
 * I can not enough express my gratitude towards my amazing mentor [Richard Wells](https://github.com/D0nni387). I would never have gotten through this project or the entire course at this fast pace if it was not for his guidance and support. And, I would definitely not have had this much fun doing it if it was not for Richard! From the bottom of my heart, Thank you Richard! 
 
