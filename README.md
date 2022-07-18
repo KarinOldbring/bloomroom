@@ -474,7 +474,7 @@ Testing was done manually throughout the development process. The full rundown o
     
     **Solution:** I had pasted the stripe public and secret key in my Gitpod variables, but not the webhook key. After consulting tutor support I was adviced to put them in my env.py file instead along with the wh-key. 
 
-* **Bug:**: Emails not being sent out
+* **Bug:** Emails not being sent out
     
     **Solution:** I was trying to send emails from a gmail which doesn't work on the development server, after I put DEVELOPMENT="True" in my env.py file the emails were sent out as expected. 
 
