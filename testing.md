@@ -12,7 +12,8 @@
 * [Manual Testing](#Manual-testing)
 * [Validation Testing](#Validation-testing)
     * [Code Validation](#Code-validation)
-    * [Browser Validation](#Browser-validation)
+* [Browser Validation](#Browser-validation)
+* [Lighthouse](#Lighthouse)
 * [User Testing](#User-testing)
 
 
@@ -320,8 +321,6 @@
 
 ## **Validation Testing**
 
-[Back to content](#contents)
-
 #### **Code-validation**
 
 The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the HTML and CSS code used. The [PEP8 Python Validator](http://pep8online.com/) was used to validate the Python code. 
@@ -362,7 +361,7 @@ Files tested:
 
 * Python Validation
 
-All files tested passed with no errors except for line 51 in Checkout models.py. I tried breaking that line in many different ways but all my attempts ended with the code not functioning as expected. 
+All files tested passed with no errors except for line 51 in Checkout models.py. I tried breaking that line in many different ways but all my attempts ended with the code not functioning as expected hence I left it with a #noqa in the end of the line.  
 
 Files tested:
 
@@ -406,9 +405,13 @@ Files tested:
 
 * JavaScript Validation
 
+## **Lighthouse**
 
+The site has been tested with Lighthouse. Performance could be further improved by analyzing the file types of images. Also since I use a free subscription for the heroku app it starts really slowly which can affect the performance score. 
 
-#### **Browser-validation**
+## **Browser-validation**
+
+[Back to content](#contents)
 
 ## **User-testing**
 
