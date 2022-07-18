@@ -288,7 +288,7 @@
 
 * Expected Outcome: A site user that is not logged in to the site should be presented with the option of signing up for an account. To sign up for an account the user needs to enter a unique email address and username, as well as a password twice. If the email address or the username already has been used to sign up for an account the user should be encouraged to choose a new one. 
 * Test: Try signing up for a new account using both new and already used emails and usernames or trying to leave out required information. 
-* Result: When trying to sign up for an account using already used email address and/or username I am enouraged to choose a different one. When choosing a entering a new email address and username the sign up functions. Leaving inout fields blank also throws an error. 
+* Result: When trying to sign up for an account using already used email address and/or username I am enouraged to choose a different one. When choosing a entering a new email address and username the sign up functions. Leaving input fields blank also throws an error. 
 * Verdict: Code functions as intended. 
 
 #### Login
@@ -422,7 +422,7 @@ Files tested:
 
 ## **Lighthouse**
 
-The site has been tested with Lighthouse. Performance could be further improved by analyzing the file types of images. Also since I use a free subscription for the heroku app it starts really slowly which can affect the performance score. 
+The site has been tested with Lighthouse. Performance could be further improved by analyzing the file types of images. Also since I use a free subscription for the Heroku app it starts really slowly which can affect the performance score. 
 
 ![Lighthouse](/static/site_images/lighthouse.png)
 
