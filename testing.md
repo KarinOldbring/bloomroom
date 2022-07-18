@@ -305,8 +305,8 @@
 #### Shopping Bag 
 
 * Expected Outcome: The shopping bag aims for the user to see all items in the bag. The bag should show product info, bag total, delivery cost and grand total. Apart from that the user should be given the opportunity to change quantity of selected items or remove them entirely. From here the user should be given the option to either proceed to Secure Checkout or Keep Shopping. 
-* Test: By adding items to the bag, I tried changing quantity and deleting the item entirely. 
-* Result: I was able to adjust quantity and delete items completely. When doing so the total cost was adjusted. From here I could choose to Keep Shopping or go to Secure Checkout. 
+* Test: By adding items to the bag, I tried changing quantity and deleting the item entirely. I also tried to go beyond the allowed quantity scope of 1-99, by using the icons or typing in number manually and typing in other caracters than digits. 
+* Result: I was able to adjust quantity and delete items completely. When doing so the total cost was adjusted. From here I could choose to Keep Shopping or go to Secure Checkout. If I tried going beyond the allowed scope I was instructed to pick a number between 1-99, or a valid if I tried entering invalid characters. 
 * Verdict: Code functions as intended. 
 
 #### Checkout
