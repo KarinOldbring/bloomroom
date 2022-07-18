@@ -426,4 +426,6 @@ The site has been tested using the following browsers:
 
 ## **User-testing**
 
+The site has been tested regularly during development. After the site was completed the site has been tested by several users to make sure functionality and good user experience is maintained. The site has also been tested on devices with different screen sizes. The site has also been tested on both Android and Apple mobile. 
+
 [Back to content](#contents)
