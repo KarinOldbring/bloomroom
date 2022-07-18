@@ -10,13 +10,12 @@
 ## Contents
 * [Test User Stories](#Test-user-stories)
 * [Manual Testing](#Manual-testing)
-* [Validation Testing](#Validation-testing)
-    * [Code Validation](#Code-validation)
-* [Browser Validation](#Browser-validation)
+* [Code Validation](#Code-validation)
     * [HTML](#HTML)
     * [CSS](#CSS)
     * [Python](#Python)
     * [Javascript](#Javascript)
+* [Browser Validation](#Browser-validation)
 * [Lighthouse](#Lighthouse)
 * [User Testing](#User-testing)
 
