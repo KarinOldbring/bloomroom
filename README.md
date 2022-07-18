@@ -9,7 +9,7 @@
     * [Business Plan](#Business-Plan)
     * [Planning Stage](#Planning-Stage)
     * [Project Goals](#Project-Goals)
-        * [Epics](#Epics)
+        * Epics
     * [User Stories](#User-Stories)
     * [Design Goals](#Design-Goals)
     * [Design Choices](#Design-Choices)
@@ -19,14 +19,24 @@
         * Images
     * [Wireframes](#Wireframes)
 
+* **[Information Architecture](#Information-Architecture)**
+    * [Database Models](#Database-Models)
+
 * **[Features](#Features)**
     * [Existing Features](#Existing-Features)
     * [General Features](#General-Features)
     * [Future Features](#Future-Features)
 
 * **[SEO Implementation](#SEO-Implementation)**
+    * [Sitemap](#Sitemap)
+    * [Robots.txt](#Robots.txt)
 
 * **[Marketing Techniques](#Marketing-Techniques)**
+    * [Target Audience](#Target-Audience)
+    * [Social Media](#Social-Media)
+        * [Facebook](#Facebook)
+        * [Instagram](#Instagram)
+        * [Newsletter](#NewsletterS)
 
 * **[Testing](#Testing)**
 
@@ -75,7 +85,7 @@ The app is designed as an e-commerce application that encourages users to make p
 
 [Back to content](#contents)
 
-#### **Epics**
+**Epics**
 
 Some overall goals were first created for this project, that later resulted in more specific User Stories. The overall goals are presented here along with the ID number of the connected User stories:
 
@@ -429,7 +439,7 @@ The site has been equipped with a [Sitemap.xml](/sitemap.xml).
 
 [Back to content](#contents)
 
-### **Robots**
+### **Robots.txt**
 
 The site has been equipped with a [Robots.txt file](/robots.txt). 
 
