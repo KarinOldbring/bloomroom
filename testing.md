@@ -410,7 +410,15 @@ Files tested:
 
 #### **JavaScript**
 
+The JavaScript was tested using [https://jshint.com/](https://jshint.com/). The files returned no errors except for the Stripe Javascript file that returned an error saying there is an undefined variable, Stripe. This is due to core functionality reffering to Stripe. Copy of the code was taken from older version Stripe pages that were referenced in Butique Ado.
 
+Files tested: 
+
+- stripe_elements.js
+- quantity_input_script.html
+- quantity_input_script_bag.html
+
+[Back to content](#contents)
 
 ## **Lighthouse**
 
