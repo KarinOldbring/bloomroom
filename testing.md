@@ -26,7 +26,7 @@
 ## **Test User Stories**
 
 1. As a site user I can search the site to easily find what I am looking for.
-    * Any site user, logged in or not, can user the Search functionality in the top right corner of the site. When seraching for for example a categoriy all products matching that search criteria are displayed. The site also shows how many matching items are found for that specific search criteria and has a button to easily navigate back to All plants. 
+    * Any site user, logged in or not, can use the Search functionality in the top right corner of the site. When searching for for example a categoriy all products matching that search criteria are displayed. The site also shows how many matching items are found for that specific search criteria and has a button to easily navigate back to the products page; All plants. 
 2. As a site user I can view the products of the site so that I can see what the store offers.
     * Any site user, logged in or not, can view all products on the site. The user can either click on the Plants link in the nav-bar, or click the "Shop Here" link on the middle of the home page. This will direct the user to get a full overview of the products. 
 
@@ -43,13 +43,13 @@
     * Any site user can go to My Account in the nav-bar and Register an account. The registration requires a unique email-address and a unique username. If either the email-address or the username already has been used to register an account the site user will be notified and asked to choose another. 
 
 7. As a site user I can make purchases on the site. 
-    * Any site user, logged in or not, can make purchases on the site. If the user is logged in and has saved their shipping information they only need to enter Full Name and payment information. If the uer is not a registered user they will have to fill out name, shipping information and payment information. The user can then proceed to complete the order and purchase is made. 
+    * Any site user, logged in or not, can make purchases on the site. If the user is logged in and has saved their shipping information they only need to enter Full Name and payment information. If the user is not a registered user they will have to fill out name, shipping information and payment information. The user can then proceed to complete the order and the purchase is made. 
 
 8. As a site user I can view my shopping bag so that I have complete overview of my purchase.
     * Any site user, logged in or not, can by clicking the shopping bag icon in the nav-bar get a full overview of their Shopping bag. If the Shopping bag is empty, that is stated and clicking the "Keep Shopping" back easily directs you back to the All products page. If there are items in the bag, the user will see the image, name, price, quantity and total cost and also has the option to change quantity and/or delete items. From here the user can either keep shopping or proceed to secure checkout. 
 
 9.  As a site user I can view and update my account, so that I can manage my account.
-    * Any logged in registered user can view their Profile. By clicking My Account and choosing My Profile in the nav-bar you are directed to the Profile view. Here the user is greeted using their username ("Welcome Username") and their Profile information is presented. From here the user can update and or delete information that has previously been saved. A note at the bottom of the page instructs the user how to go about if they wish to entirely delete their profile. In the My Profile view the user also gets an overview of previous purchases. By clicking the Order number the user is directed to the purchase specification. 
+    * Any logged in registered user can view their Profile. By clicking My Account and choosing My Profile in the nav-bar you are directed to the Profile view. Here the user is greeted by their username ("Welcome Username") and their Profile information is presented. From here the user can update and or delete information that has previously been saved. A note at the bottom of the page instructs the user how to go about if they wish to entirely delete their profile. In the My Profile view the user also gets an overview of previous purchases. By clicking the Order number the user is directed to the purchase specification. 
 
 10. As a site user I can sign up for a newsletter so that I can take part of news and offers.
     * Any site user, logged in or not, can sign up for a Newsletter subscription. By submitting their email address in the bottom right corner in the footer they are automatically signed up. After submitting an email address an alert shows up thanking the user for subscribing. 
@@ -61,7 +61,7 @@
     * The site owner can easily access the product specifications on the site. When logged in the site owner has the opportunity to edit and delete items on the site by clicking the Edit or Delete buttons beneath each product. 
 
 13. As a site owner I can add new products to the site.
-    * The site owner can by clicking My Account in the nav-bar and choose Product Management add new items to the site. From there the site user can fill out all fields necessary and upload an image. By clicking "Add Product" the item is added to the product list. 
+    * The site owner can by clicking My Account in the nav-bar and choose Product Management add new items to the site. From there the site owner can fill out all fields necessary and upload an image. By clicking "Add Product" the item is added to the product list. 
 
 14. As a site owner I can update products on the site.
     * The site owner can by clicking the Edit button under a specific product access the "Edit Product" view. The site owner will recognize this view from the Add Product view, only here the previous information is there and can be edited. The site owner can update all text and also change image. 
@@ -70,7 +70,7 @@
     * When the site owner is logged in there is a "Delete" button presented underneath each product. By clicking it the item is automatically removed from the products list. 
 
 16. As a site owner I can send confirmation and informational emails to my customers.
-    * When a user makes a purchase a confirmation email is automatically sent out to the customer. Through the Mailchimp service the site owner has access to all the site users who have signed up for the Newsletter subscription and can from there send emails. 
+    * When a user makes a purchase a confirmation email is automatically sent to the customer. Through the Mailchimp service the site owner has access to all the site users who have signed up for the Newsletter subscription and can from there send emails. 
 
 [Back to content](#contents)
 
