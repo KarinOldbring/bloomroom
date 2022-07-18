@@ -15,8 +15,8 @@
     * [CSS](#CSS)
     * [Python](#Python)
     * [Javascript](#Javascript)
-* [Browser Validation](#Browser-validation)
 * [Lighthouse](#Lighthouse)
+* [Browser Validation](#Browser-validation)
 * [User Testing](#User-testing)
 
 
