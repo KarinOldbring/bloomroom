@@ -88,7 +88,7 @@
 #### Logo
 
 * Expected Outcome: When clicking the logo, the user should be redirected to home page.
-* Test: I tried clicking the logo from all different pages on the site, both as logged in user and not. 
+* Test: I tried clicking the logo from all different pages of the site, both as logged in user and not. 
 * Result: Every time I clicked the logo I was redirected to home page.
 * Verdict: Code functions as intented.
 
@@ -144,7 +144,7 @@
 
 ##### Plants Link - Larger Plants
 
-* Expected Outcome: When choosing Larger Plants from the Plants dropdown menu, you should be redirected to the All Larger overview. 
+* Expected Outcome: When choosing Larger Plants from the Plants dropdown menu, you should be redirected to the Larger Plants overview. 
 * Test: I tried clicking the Larger Plants link from all different pages on the site, both as logged in user and not.
 * Result: Every time I clicked the Larger Plants link I was redirected to the Larger Plants overview. 
 * Verdict: Code functions as intended. 
@@ -194,7 +194,7 @@
 
 #### Product Management
 
-* Expected Outcome: When choosing Product Management from the My Account link, the superuser should be redirected to the Product Management page. 
+* Expected Outcome: When choosing Product Management from the My Account link, the site owner should be redirected to the Product Management page. 
 * Test: Clicked the Product Management option in the My Account link. 
 * Result: When choosing Product Management I was redirected to the Product Management page.
 * Verdict: Code functions as intended. 
@@ -256,7 +256,7 @@
 
 * Expected Outcome: On the Home Page there is a rolling Delivery Banner stating the Free Deilvery terms. On x-small screens, the banner should not be rolling but be still for better UX. 
 * Test: View the Delivery Banner on different size screens. 
-* Result: When using small or larger screens the Delivery Banner is rolling, on smaller screens it is not rolling but still. 
+* Result: When using small or larger screens the Delivery Banner is rolling, on extra small screens it is not rolling but still. 
 * Verdict: Code functions as intended. 
 
 ### Products
