@@ -409,6 +409,8 @@ Files tested:
 
 The site has been tested with Lighthouse. Performance could be further improved by analyzing the file types of images. Also since I use a free subscription for the heroku app it starts really slowly which can affect the performance score. 
 
+![Lighthouse](/static/site_images/lighthouse.png)
+
 ## **Browser-validation**
 
 [Back to content](#contents)
