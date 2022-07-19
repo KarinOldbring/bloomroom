@@ -548,7 +548,7 @@ Testing was done manually throughout the development process. The full rundown o
 - [AWS Storage](https://aws.amazon.com/ "Link to AWS")
      - AWS Bucket Storage was used to store static and media files. 
 - [Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/ "Link to the Crispy Forms documentation")
-    - Crispy Forms was used to style the add and edit recipe forms, allowing more than one field to occupy a line on the form.
+    - Crispy Forms was used for the forms. 
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
     - Google fonts were used to import the fonts "Playfair Display" and "Lato" into the style.css file. These fonts were used throughout the project.
 - [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
