@@ -321,13 +321,13 @@ The wide nav-bar with links and icons are displayed on desktop screens. In the l
 
 ![Footer Desktop](/static/site_images/footer-1.png)     ![Footer Mobile](/static/site_images/footer-2.png)
 
-The footer contains links to the BloomRoom Facebook page and Instagram. On desktop screens the logo and en email address is also presented, clicking the logo takes you back to the home page. On the right hand side of the footer there is a sign up form for subscribing to the newsletter. The footer looks basically the same on mobile screens, apart from the mid section containing the logo and email address, that is hidden on smaller screens. 
+The footer contains links to the BloomRoom Facebook page and Instagram. On desktop screens the logo and an email address is also presented, clicking the logo takes you back to the home page. On the right hand side of the footer there is a sign up form for subscribing to the newsletter. The footer looks basically the same on mobile screens, apart from the mid section containing the logo and email address, that is hidden on smaller screens. 
 
 #### Front Page
 
 ![Front Page](/static/site_images/frontpage.png)
 
-The home page aims to be eye catching and explanatory at the same time. A sophisticated image showing popular plants greets the user. On the image there is a short description of the page and also a link to get directly to the products. 
+The Home page aims to be eye catching and explanatory at the same time. A sophisticated image showing popular plants greets the user. On the image there is a short description of the page and also a link to get directly to the products. 
 
 #### About Page
 
@@ -345,7 +345,7 @@ Clicking on the link for All Products in the nav-bar or the "Shop Here" link on 
 
 ![Product Detail](/static/site_images/product-detail-page.png)
 
-When clicking on either a product image or its name you are directed to the product detail view. From here you get all information regarding the plant and you can also choose to add it in your shopping bag. There is also a button to redirect you back to the All products page. If the user is a superuser, there are options to edit and/or delete the product directly from here. 
+When clicking on either a product image or its name you are directed to the product detail view. From here you get all information regarding the plant and you can also choose to add it in your shopping bag. There is also a button to redirect you back to the All products page. If the user is a superuser, there are options to edit and/or delete the products directly from here. 
 
 #### Manage Product
 
@@ -480,7 +480,7 @@ Testing was done manually throughout the development process. The full rundown o
 
 ## **Bugs**
 
-* **Bug:** Stripe Webhooks throwing throwing signature error
+* **Bug:** Stripe Webhooks throwing signature error
     
     **Solution:** I had pasted the stripe public and secret key in my Gitpod variables, but not the webhook key. After consulting tutor support I was adviced to put them in my env.py file instead along with the wh-key. 
 
@@ -514,7 +514,7 @@ Testing was done manually throughout the development process. The full rundown o
 
 * **Bug:** My biggest and most challenging bug was when I decided to make a switch from Cloudinary Storage to AWS. I encountered an etag error when using cloudinary and since not even the excellent help at Tutor support managed to combat that bug I decided to get rid of cloudinary and start over with aws. After making the setup the images and css was still not rendering correctly. After lots of troubleshooting and with amazing help from John Traas from CI he discovered two bugs in my setup. 
 
-    **First solution:** - The Secret Access Key I got from AWS contained a forward slash (/) which causes an error that not even Amazon are able to tackle apperently. 
+    **First solution:** - The Secret Access Key I got from AWS contained a forward slash (/) which causes an error that not even Amazon are able to tackle apperently. Hence I had to create new Secret Access Keys until I was given one without a forward slash. 
     **Second solution:** - The name I had chosen for my bucket was the same as my heroku app name which caused a name error. Hence I had to create a new bucket and do the setup etc once more. 
     **Third solution:** After this the site was rendering correctly apart from all the product images. This was because the media folder where the images are stored were not downloaded into the bucket automatically. After manually creating a media folder in the bucket, and uploading all of the images to it, the site was functioning as expected. 
 
