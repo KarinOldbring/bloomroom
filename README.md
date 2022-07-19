@@ -36,7 +36,7 @@
     * [Social Media](#Social-Media)
         * [Facebook](#Facebook)
         * [Instagram](#Instagram)
-        * [Newsletter](#NewsletterS)
+    * [Newsletter](#Newsletter)
 
 * **[Testing](#Testing)**
 
